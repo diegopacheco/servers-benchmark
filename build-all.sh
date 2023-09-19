@@ -10,7 +10,6 @@ cd ../
 
 echo ">>> Building Zig"
 cd zig-zap/
-zig build 
 zig build -Doptimize=ReleaseFast
 cd ../
 
@@ -18,3 +17,5 @@ echo ">>> Building Go"
 cd go-nethttp/
 go build
 cd ../
+
+echo ">>> DONE. "
