@@ -1,0 +1,10 @@
+{
+  "simulation": "NettyMonoSimulation2",
+  "simulationId": "nettymonosimulation2-20230919081717174",
+  "start": 1695111438409,
+  "description": "",
+  "scenarios": ["NettyMonoSimulation"],
+  "assertions": [
+
+  ]
+}
