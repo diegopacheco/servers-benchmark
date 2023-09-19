@@ -20,7 +20,7 @@
 * Micronaut     : 60000 total/OK, p99: 129 ms
 * Quarkus       : 60000 total/OK, p99: 4 ms 
 
-### build
+### build Java
 
 1. for Java - install sdkman - https://sdkman.io/
 ```bash
@@ -41,6 +41,19 @@ OpenJDK 64-Bit Server VM Homebrew (build 20.0.1, mixed mode, sharing)
 
 ```bash
 ./mvnw clean install
+```
+
+### Build All
+
+Make sure you have installed and configured on the $PATH
+1. Java sdk 20
+2. Zig version 0.11
+3. Rust 1.71.0
+4. Go 1.21.0
+5. Nodejs 20
+
+```bash
+./build-all.sh
 ```
 
 ### Gatling reports
