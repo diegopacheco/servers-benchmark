@@ -1,0 +1,10 @@
+{
+  "simulation": "PythonTwistedSimulation",
+  "simulationId": "pythontwistedsimulation-20230919084103214",
+  "start": 1695112864346,
+  "description": "",
+  "scenarios": ["PythonTwistedSimulation"],
+  "assertions": [
+
+  ]
+}
