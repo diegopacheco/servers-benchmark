@@ -21,6 +21,24 @@
 * Quarkus       : 60000 total/OK, p99: 4 ms 
 
 ### build
+
+1. for Java - install sdkman - https://sdkman.io/
+```bash
+curl -s "https://get.sdkman.io" | bash
+```
+```bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk install java 20.0.2-amzn
+sdk use java 20.0.2-amzn
+java -version
+```
+```bash
+❯ java -version
+openjdk version "20.0.1" 2023-04-18
+OpenJDK Runtime Environment Homebrew (build 20.0.1)
+OpenJDK 64-Bit Server VM Homebrew (build 20.0.1, mixed mode, sharing)
+```
+
 ```bash
 ./mvnw clean install
 ```
@@ -47,6 +65,13 @@ Things that this should be doing to be better.
 * Have 2 different machines for server and gatling
 * Make more rounds with more users, 10k, 100k, 1M
 * Have other uses cases like, read json from DB, read static file, persist data, etc...
+
+### Important OS tunning
+
+1. default file descriptors for linux is 1024, mac is 256 - need to be twecked.
+2. also open files 
+3. switch to ip v4
+here are steps on how to do it: https://gist.github.com/diegopacheco/ad1e63691380ad1a6b3be6b62910c3fb
 
 ### Open a PR to add new language / server?
 
