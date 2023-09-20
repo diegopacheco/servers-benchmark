@@ -8,6 +8,7 @@
 * Java 20 - Quarkus
 * NodeJS 20 Express
 * Python 3.11 Twisted
+* C++ Drogon
 * Go ne/nethttp
 * Rust Actix
 * Zig Zap
