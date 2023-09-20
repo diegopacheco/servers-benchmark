@@ -12,7 +12,7 @@
 * Rust Actix
 * Zig Zap
 
-### Results
+### Results Summary (Java)
 
 1k users, during 1 minute non-stop
 * Boot-Netty    : 60000 total/OK, p99: 2 ms 
@@ -51,6 +51,7 @@ Make sure you have installed and configured on the $PATH
 2. Zig version 0.11
 3. Rust 1.71.0
 4. Go 1.21.0
+5. g++ 11.4.0
 5. Nodejs 20
 6. Python 3.11
 
@@ -94,5 +95,8 @@ here are steps on how to do it: https://gist.github.com/diegopacheco/ad1e6369138
 ### Open a PR to add new language / server?
 
 1. Create a gatling simulation
-2. Updad the reports
-3. update the readme to add the new server / link to gatling report
+2. Create a gatling script
+3. Add the new project with new language/framework
+4. Dont publish gatling results
+5. I will re-run on my machine, you can run all in our machine in our fork to compare different results with different hardware
+
