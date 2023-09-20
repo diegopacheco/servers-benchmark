@@ -1,0 +1,10 @@
+{
+  "simulation": "BunElysiaSimulation",
+  "simulationId": "bunelysiasimulation-20230920055931647",
+  "start": 1695189572888,
+  "description": "",
+  "scenarios": ["BunElysiaSimulation"],
+  "assertions": [
+
+  ]
+}
