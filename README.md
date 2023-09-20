@@ -9,6 +9,7 @@
 * NodeJS 20 -Express
 * Bun 1.0 - Elysia
 * Python 3.11 - Twisted
+* V 0.4 - pico
 * C++ - Drogon
 * Go 1.21 - net/http
 * Rust 1.71 - Actix
@@ -57,6 +58,7 @@ Make sure you have installed and configured on the $PATH
 6. bun 1.0.0
 5. Nodejs 20
 6. Python 3.11
+7. V 0.4
 
 ```bash
 ./build-all.sh
@@ -73,6 +75,7 @@ Make sure you have installed and configured on the $PATH
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/quarkussimulation-20230831102413091/index.html">Quarkus</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/nodejsexpresssimulation-20230901061955293/index.html">NodeJS 20 Express</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/bunelysiasimulation-20230920055931647/index.html">Bun 1 Elysia</a> 
+* <a href="https://htmlpreview.github.io/?l">V 0.4 pico</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/pythontwistedsimulation-20230919084103214/index.html">Python 3.11 Twisted</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/gosimulation-20230901071759216/index.html">Go 1.21</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/cppdrogonsimulation-20230920053756755/index.html">C++ Drogon 3x</a>
