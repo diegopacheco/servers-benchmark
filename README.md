@@ -99,6 +99,76 @@ Things that this should be doing to be better.
 3. switch to ip v4
 here are steps on how to do it: https://gist.github.com/diegopacheco/ad1e63691380ad1a6b3be6b62910c3fb
 
+### for V and pico
+gatling is having issues, but apache ab is working fine.
+```bash
+ab -n 60000 -c 1000 http://127.0.0.1:8080/
+```
+```
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)
+Completed 6000 requests
+Completed 12000 requests
+Completed 18000 requests
+Completed 24000 requests
+Completed 30000 requests
+Completed 36000 requests
+Completed 42000 requests
+Completed 48000 requests
+Completed 54000 requests
+Completed 60000 requests
+Finished 60000 requests
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /
+Document Length:        36 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   487.475 seconds
+Complete requests:      60000
+Failed requests:        0
+Total transferred:      6000000 bytes
+HTML transferred:       2160000 bytes
+Requests per second:    123.08 [#/sec] (mean)
+Time per request:       8124.588 [ms] (mean)
+Time per request:       8.125 [ms] (mean, across all concurrent requests)
+Transfer rate:          12.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0   13   9.0     13      56
+Processing:  7043 8026 271.9   8059   15159
+Waiting:        0    7   6.6      6      69
+Total:       7056 8039 272.1   8069   15179
+
+Percentage of the requests served within a certain time (ms)
+  50%   8069
+  66%   8072
+  75%   8075
+  80%   8077
+  90%   8090
+  95%   8105
+  98%   8126
+  99%   8129
+ 100%  15179 (longest request)
+```
+Fix gatling for V and pic by sharing connection.
+```Java
+HttpProtocolBuilder httpProtocol = http
+        .baseUrl("http://localhost:8080")
+        .acceptHeader("text/html")
+        .doNotTrackHeader("1")
+        .userAgentHeader("Gat")
+        .shareConnections();
+```
+
 ### Open a PR to add new language / server?
 
 1. Create a gatling simulation

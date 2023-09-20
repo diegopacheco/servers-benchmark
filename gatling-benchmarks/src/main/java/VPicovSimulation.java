@@ -12,9 +12,8 @@ public class VPicovSimulation extends Simulation {
             .baseUrl("http://localhost:8080")
             .acceptHeader("text/html")
             .doNotTrackHeader("1")
-            .acceptLanguageHeader("en-US,en;q=0.5")
-            .acceptEncodingHeader("gzip, deflate")
-            .userAgentHeader("Mozilla/5.0)");
+            .userAgentHeader("Gat")
+            .shareConnections();
 
     ScenarioBuilder scn = scenario("VPicovSimulation")
             .exec(http("request")
