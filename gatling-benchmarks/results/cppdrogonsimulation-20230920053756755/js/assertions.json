@@ -1,0 +1,10 @@
+{
+  "simulation": "CppDrogonSimulation",
+  "simulationId": "cppdrogonsimulation-20230920053756755",
+  "start": 1695188277846,
+  "description": "",
+  "scenarios": ["CppDrogonSimulation"],
+  "assertions": [
+
+  ]
+}
