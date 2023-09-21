@@ -21,6 +21,40 @@
 
 * Rust 1.71 - Hyper <a href="https://github.com/andreixmartins">(@andreixmartins)</a>
 
+### Gatling reports 📈
+
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/nettysimulation-20230831101614369/index.html">Boot Netty 4</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/nettymonosimulation-20230901072503134/index.html">Boot Mono Netty 4</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/nettymonosimulation2-20230919081717174/index.html">Boot Mono Netty 4 V2</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/tomcatsimulation-20230831101829804/index.html">Boot Tomcat 10.1</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/undertowsimulation-20230831102016479/index.html">Boot Undertow</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/micronautsimulation-20230831102207513/index.html">Micronaut</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/quarkussimulation-20230831102413091/index.html">Quarkus</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/nodejsexpresssimulation-20230901061955293/index.html">NodeJS 20 Express</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/denofreshsimulation-20230921064305734/index.html">Deno Fresh</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/bunelysiasimulation-20230920055931647/index.html">Bun 1 Elysia</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/vpicovsimulation-20230920082545435/index.html">V 0.4 pico</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/pythontwistedsimulation-20230919084103214/index.html">Python 3.11 Twisted</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/pythontornadosimulation-20230921231608429/index.html">Python 3.11 Tornado</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/gosimulation-20230901071759216/index.html">Go 1.21</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/cppdrogonsimulation-20230920053756755/index.html">C++ Drogon 3x</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/rustactixsimulation-20230901065954265/index.html">Rust 1.71 Actix</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/zigzapsimulation-20230901083939880/index.html">Zig 0.11 Zap</a>
+
+### Gatling reports - Contributions 📈
+
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rusthypersimulation-20230921073554122/index.html">Rust 1.71 Hyper</a>
+
+### Throwing a little bit of Salt 🧂
+
+Things that this should be doing to be better.
+
+* Wram up
+* Run on AWS
+* Have 2 different machines for server and gatling
+* Make more rounds with more users, 10k, 100k, 1M
+* Have other uses cases like, read json from DB, read static file, persist data, etc...
+
 ### Results Summary (☕ Java)
 
 1k users, during 1 minute non-stop
@@ -29,6 +63,24 @@
 * Boot-Undertow : 60000 total/OK, p99: 15 ms
 * Micronaut     : 60000 total/OK, p99: 129 ms
 * Quarkus       : 60000 total/OK, p99: 4 ms 
+
+### Build All 💻
+
+Make sure you have installed and configured on the $PATH
+1. Java sdk 20
+2. Zig version 0.11
+3. Rust 1.71.0
+4. Go 1.21.0
+5. g++ 11.4.0
+6. bun 1.0.0
+7. Deno 1.37
+5. Nodejs 20
+6. Python 3.11
+7. V 0.4
+
+```bash
+./build-all.sh
+```
 
 ### build Java ☕
 
@@ -52,58 +104,6 @@ OpenJDK 64-Bit Server VM Homebrew (build 20.0.1, mixed mode, sharing)
 ```bash
 ./mvnw clean install
 ```
-
-### Build All 💻
-
-Make sure you have installed and configured on the $PATH
-1. Java sdk 20
-2. Zig version 0.11
-3. Rust 1.71.0
-4. Go 1.21.0
-5. g++ 11.4.0
-6. bun 1.0.0
-7. Deno 1.37
-5. Nodejs 20
-6. Python 3.11
-7. V 0.4
-
-```bash
-./build-all.sh
-```
-
-### Gatling reports 📈
-
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/nettysimulation-20230831101614369/index.html">Boot Netty 4</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/nettymonosimulation-20230901072503134/index.html">Boot Mono Netty 4</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/nettymonosimulation2-20230919081717174/index.html">Boot Mono Netty 4 V2</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/tomcatsimulation-20230831101829804/index.html">Boot Tomcat 10.1</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/undertowsimulation-20230831102016479/index.html">Boot Undertow</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/micronautsimulation-20230831102207513/index.html">Micronaut</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/quarkussimulation-20230831102413091/index.html">Quarkus</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/nodejsexpresssimulation-20230901061955293/index.html">NodeJS 20 Express</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/denofreshsimulation-20230921064305734/index.html">Deno Fresh</a> 
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/bunelysiasimulation-20230920055931647/index.html">Bun 1 Elysia</a> 
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/vpicovsimulation-20230920082545435/index.html">V 0.4 pico</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/pythontwistedsimulation-20230919084103214/index.html">Python 3.11 Twisted</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/pythontornadosimulation-20230921231608429/index.html">Python 3.11 Tornado</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/gosimulation-20230901071759216/index.html">Go 1.21</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/cppdrogonsimulation-20230920053756755/index.html">C++ Drogon 3x</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/rustactixsimulation-20230901065954265/index.html">Rust 1.71 Actix</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/zigzapsimulation-20230901083939880/index.html">Zig 0.11 Zap</a>
-
-### Gatling reports - Contributions 📈
-
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rusthypersimulation-20230921073554122/index.html">Rust 1.71 Hyper</a>
-
-### Throwing a little bit of Salt 🧂
-
-Things that this should be doing to be better.
-
-* Wram up
-* Run on AWS
-* Have 2 different machines for server and gatling
-* Make more rounds with more users, 10k, 100k, 1M
-* Have other uses cases like, read json from DB, read static file, persist data, etc...
 
 ### Important OS tunning
 
