@@ -14,7 +14,7 @@
 * C++ - Drogon
 * Go 1.21 - net/http
 * Rust 1.71 - Actix
-* Rust 1.71 - Hyper
+* Rust 1.71 - Hyper (@andreixmartins)
 * Zig 0.11 - Zap
 
 ### Results Summary (Java)
