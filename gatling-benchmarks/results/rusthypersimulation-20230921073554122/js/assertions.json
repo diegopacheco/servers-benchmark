@@ -1,0 +1,10 @@
+{
+  "simulation": "RustHyperSimulation",
+  "simulationId": "rusthypersimulation-20230921073554122",
+  "start": 1695281755192,
+  "description": "",
+  "scenarios": ["RustHyperSimulation"],
+  "assertions": [
+
+  ]
+}
