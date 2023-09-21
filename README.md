@@ -1,4 +1,4 @@
-# Servers Benchmark
+# 🚀 Servers Benchmark
 
 * Java 20 - Tomcat 10.1
 * Java 20 - Netty 4
@@ -17,7 +17,7 @@
 * Rust 1.71 - Hyper <a href="https://github.com/andreixmartins">(@andreixmartins)</a>
 * Zig 0.11 - Zap
 
-### Results Summary (Java)
+### Results Summary (☕ Java)
 
 1k users, during 1 minute non-stop
 * Boot-Netty    : 60000 total/OK, p99: 2 ms 
@@ -26,7 +26,7 @@
 * Micronaut     : 60000 total/OK, p99: 129 ms
 * Quarkus       : 60000 total/OK, p99: 4 ms 
 
-### build Java
+### build Java ☕
 
 1. for Java - install sdkman - https://sdkman.io/
 ```bash
@@ -49,7 +49,7 @@ OpenJDK 64-Bit Server VM Homebrew (build 20.0.1, mixed mode, sharing)
 ./mvnw clean install
 ```
 
-### Build All
+### Build All 💻
 
 Make sure you have installed and configured on the $PATH
 1. Java sdk 20
@@ -67,7 +67,7 @@ Make sure you have installed and configured on the $PATH
 ./build-all.sh
 ```
 
-### Gatling reports
+### Gatling reports 📈
 
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/nettysimulation-20230831101614369/index.html">Boot Netty 4</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/nettymonosimulation-20230901072503134/index.html">Boot Mono Netty 4</a>
@@ -87,7 +87,7 @@ Make sure you have installed and configured on the $PATH
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rusthypersimulation-20230921073554122/index.html">Rust 1.71 Hyper</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/zigzapsimulation-20230901083939880/index.html">Zig 0.11 Zap</a>
 
-### Throwing a little bit of Salt
+### Throwing a little bit of Salt 🧂
 
 Things that this should be doing to be better.
 
