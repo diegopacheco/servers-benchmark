@@ -1,0 +1,10 @@
+{
+  "simulation": "DenoFreshSimulation",
+  "simulationId": "denofreshsimulation-20230921064305734",
+  "start": 1695278586822,
+  "description": "",
+  "scenarios": ["DenoFreshSimulation"],
+  "assertions": [
+
+  ]
+}
