@@ -182,3 +182,7 @@ HttpProtocolBuilder httpProtocol = http
 4. Dont publish gatling results
 5. I will re-run on my machine, you can run all in our machine in our fork to compare different results with different hardware
 
+## TODO
+
+* Migrate to JDK 21
+* GraalVM
