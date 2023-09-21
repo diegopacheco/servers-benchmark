@@ -1,0 +1,10 @@
+{
+  "simulation": "RustAxumSimulation",
+  "simulationId": "rustaxumsimulation-20230921233750315",
+  "start": 1695339471631,
+  "description": "",
+  "scenarios": ["RustAxumSimulation"],
+  "assertions": [
+
+  ]
+}

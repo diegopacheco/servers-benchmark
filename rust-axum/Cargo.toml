@@ -1,0 +1,17 @@
+[package]
+name = "main"
+version = "1.0.0"
+authors = ["Diego.Pacheco"]
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+axum ="0.6.20"
+
+[dependencies.uuid]
+version = "1.4.1"
+features = [
+    "v4",                
+    "fast-rng",          
+    "macro-diagnostics", 
+]
