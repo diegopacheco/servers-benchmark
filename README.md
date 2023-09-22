@@ -26,7 +26,8 @@
 # 🚀 Servers Benchmark - Contributions
 
 * Rust 1.71 - Hyper <a href="https://github.com/andreixmartins">(@andreixmartins)</a>
-* Lua 5.4 - Pegasus <a href="https://github.com/andreixmartins">(@andreixmartins)</a> 
+* Lua 5.4 - Pegasus <a href="https://github.com/andreixmartins">(@andreixmartins)</a>
+* Ruby 3.2 - TCP <a href="https://github.com/andreixmartins">(@andreixmartins)</a>
 
 ### Gatling reports 📈
 
