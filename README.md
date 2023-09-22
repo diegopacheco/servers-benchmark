@@ -144,7 +144,7 @@ OpenJDK 64-Bit Server VM Homebrew (build 20.0.1, mixed mode, sharing)
 ./mvnw clean install
 ```
 
-### Important OS tunning
+### Important OS tuning
 
 1. default file descriptors for linux is 1024, mac is 256 - need to be twecked.
 2. also open files
@@ -225,9 +225,11 @@ HttpProtocolBuilder httpProtocol = http
 
 1. Create a gatling simulation
 2. Create a gatling script
+3. Create a run.sh script - add the tuning for linux os pls
 3. Add the new project with new language/framework
 4. Dont publish gatling results
 5. I will re-run on my machine, you can run all in our machine in our fork to compare different results with different hardware
+6. Add a different script to install dependencies
 
 ## TODO
 
