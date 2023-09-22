@@ -13,7 +13,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
     <properties>
-        <java_version>20</java_version>
+        <java_version>21</java_version>
         <maven.compiler.source>${java_version}</maven.compiler.source>
         <maven.compiler.target>${java_version}</maven.compiler.target>
         <java.version>${java_version}</java.version>
@@ -26,6 +26,12 @@
     </dependencies>
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.graalvm.buildtools</groupId>
+                <artifactId>native-maven-plugin</artifactId>
+                <version>0.9.27</version>
+                <extensions>true</extensions>
+            </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
