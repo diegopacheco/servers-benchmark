@@ -69,7 +69,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/bunhttpserversimulation-20230922195053137/index.html">Bun http</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/bunhttpserverworkersimulation-20230922194342638/index.html">Bun http workers</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/nodejshttpserversimulation-20230922203521630/index.html">Nodejs 20 http</a>
-* <a href="https://htmlpreview.github.io/?">Nodejs 20 http workers</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/nodejshttpserverworkersimulation-20230922204031221/index.html">Nodejs 20 http workers</a>
 
 ### Throwing a little bit of Salt 🧂
 
