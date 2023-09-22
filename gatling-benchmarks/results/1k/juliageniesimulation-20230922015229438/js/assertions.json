@@ -1,0 +1,10 @@
+{
+  "simulation": "JuliaGenieSimulation",
+  "simulationId": "juliageniesimulation-20230922015229438",
+  "start": 1695347550618,
+  "description": "",
+  "scenarios": ["JuliaGenieSimulation"],
+  "assertions": [
+
+  ]
+}
