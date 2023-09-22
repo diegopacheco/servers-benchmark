@@ -1,6 +1,7 @@
 require 'socket'
 require 'securerandom'
 
+puts "TCP socket running on http://127.0.0.1:8080/"
 socket = TCPServer.new(8080)
 
 loop do
@@ -13,5 +14,4 @@ loop do
 
   client.close
 end
-
 socket.close
