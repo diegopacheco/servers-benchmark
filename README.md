@@ -6,17 +6,18 @@
 * 4  - Java 20 - Undertow
 * 5  - Java 20 - Micronaut
 * 6  - Java 20 - Quarkus
-* 7  - NodeJS 20 -Express
-* 8  - Deno 1.37 - Fresh
-* 9  - Bun 1.0 - Elysia
-* 10 - Python 3.11 - Twisted
-* 11 - Python 3.11 - Tornado
-* 12 - V 0.4 - pico
-* 13 - C++ - Drogon
-* 14 - Go 1.21 - net/http
-* 15 - Rust 1.71 - Actix
-* 16 - Rust 1.71 - Axum
-* 17 - Zig 0.11 - Zap
+* 7 -  Kotlin 1.9 - Ktor
+* 8  - NodeJS 20 -Express
+* 9  - Deno 1.37 - Fresh
+* 10  - Bun 1.0 - Elysia
+* 11 - Python 3.11 - Twisted
+* 12 - Python 3.11 - Tornado
+* 13 - V 0.4 - pico
+* 14 - C++ - Drogon
+* 15 - Go 1.21 - net/http
+* 16 - Rust 1.71 - Actix
+* 17 - Rust 1.71 - Axum
+* 18 - Zig 0.11 - Zap
 
 # 🚀 Servers Benchmark - Contributions
 
