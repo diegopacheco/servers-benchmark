@@ -18,9 +18,10 @@
 * 16 - Go 1.21 - net/http
 * 17 - Rust 1.71 - Actix
 * 18 - Rust 1.71 - Axum
-* 19 - Zig 0.11 - Zap
-* 20 - Julia 1.8.5 - Genie
-* 21 - Nim 2 - httpbeast
+* 19 - Rust 1.71 - may_minihttp
+* 20 - Zig 0.11 - Zap
+* 21 - Julia 1.8.5 - Genie
+* 22 - Nim 2 - httpbeast
 
 # 🚀 Servers Benchmark - Contributions
 
@@ -48,6 +49,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/cppdrogonsimulation-20230920053756755/index.html">C++ Drogon 3x</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/rustactixsimulation-20230901065954265/index.html">Rust 1.71 Actix</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rustaxumsimulation-20230921233750315/index.html">Rust 1.71 Axum</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rustmayminihttpsimulation-20230922101320809/index.html">Rust 1.71 may_minihttp</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/zigzapsimulation-20230901083939880/index.html">Zig 0.11 Zap</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/juliageniesimulation-20230922015229438/index.html">Julia 1.8.5 Genie</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/nim2beastsimulation-20230922022501073/index.html">Nim 2 - httpbeast</a>
