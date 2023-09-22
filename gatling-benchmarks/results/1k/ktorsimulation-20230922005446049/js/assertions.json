@@ -1,0 +1,10 @@
+{
+  "simulation": "KtorSimulation",
+  "simulationId": "ktorsimulation-20230922005446049",
+  "start": 1695344087439,
+  "description": "",
+  "scenarios": ["KtorSimulation"],
+  "assertions": [
+
+  ]
+}
