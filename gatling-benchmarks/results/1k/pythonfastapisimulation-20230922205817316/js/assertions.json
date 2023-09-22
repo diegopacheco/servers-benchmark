@@ -1,0 +1,10 @@
+{
+  "simulation": "PythonFastApiSimulation",
+  "simulationId": "pythonfastapisimulation-20230922205817316",
+  "start": 1695416298277,
+  "description": "",
+  "scenarios": ["PythonFastApiSimulation"],
+  "assertions": [
+
+  ]
+}
