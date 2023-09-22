@@ -61,7 +61,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rusthypersimulation-20230921073554122/index.html">Rust 1.71 Hyper</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/luasimulation-20230922085012164/index.html">Lua 5.4 Pegasus</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rubysimulation-20230922192324693/index.html">Ruby TCP</a>
-* <a href="https://htmlpreview.github.io/?">Java 21 - Default HTTP Server</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/javahttpserversimulation-20230922193519476/index.html">Java 21 - Default HTTP Server</a>
 
 ### Throwing a little bit of Salt 🧂
 
