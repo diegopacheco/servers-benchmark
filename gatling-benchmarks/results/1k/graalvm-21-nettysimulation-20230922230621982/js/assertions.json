@@ -1,0 +1,10 @@
+{
+  "simulation": "NettySimulation",
+  "simulationId": "nettysimulation-20230922230621982",
+  "start": 1695423983222,
+  "description": "",
+  "scenarios": ["NettySimulation"],
+  "assertions": [
+
+  ]
+}
