@@ -62,6 +62,8 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/luasimulation-20230922085012164/index.html">Lua 5.4 Pegasus</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rubysimulation-20230922192324693/index.html">Ruby TCP</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/javahttpserversimulation-20230922193519476/index.html">Java 21 - Default HTTP Server</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/bunhttpserversimulation-20230922195053137/index.html">Bun http</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/bunhttpserverworkersimulation-20230922194342638/index.html">Bun http workers</a>
 
 ### Throwing a little bit of Salt 🧂
 
