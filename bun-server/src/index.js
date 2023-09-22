@@ -1,5 +1,6 @@
 const crypto = require('crypto');
 
+console.log("Bun http running on http://127.0.0.1:3000/");
 Bun.serve({
   fetch(req) {
     const url = new URL(req.url);

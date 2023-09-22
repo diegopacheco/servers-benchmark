@@ -2,6 +2,8 @@ const crypto = require('crypto');
 const { Worker } = require('worker_threads');
 const worker = new Worker('./worker.js');
 
+console.log("Bun workers running on http://127.0.0.1:3000/");
+
 worker.setMaxListeners(1000); // is this cheating?
 
 Bun.serve({

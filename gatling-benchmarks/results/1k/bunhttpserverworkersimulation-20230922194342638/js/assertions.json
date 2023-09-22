@@ -1,0 +1,10 @@
+{
+  "simulation": "BunHttpServerWorkerSimulation",
+  "simulationId": "bunhttpserverworkersimulation-20230922194342638",
+  "start": 1695411823790,
+  "description": "",
+  "scenarios": ["BunHttpServerWorkerSimulation"],
+  "assertions": [
+
+  ]
+}
