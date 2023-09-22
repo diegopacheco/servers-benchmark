@@ -28,6 +28,7 @@
 * Rust 1.71 - Hyper <a href="https://github.com/andreixmartins">(@andreixmartins)</a>
 * Lua 5.4 - Pegasus <a href="https://github.com/andreixmartins">(@andreixmartins)</a>
 * Ruby 3.2 - TCP <a href="https://github.com/andreixmartins">(@andreixmartins)</a>
+* Java 21 - default HTTP Server <a href="https://github.com/alex-carvalho">(@alex-carvalho)</a>
 
 ### Gatling reports 📈
 
@@ -60,6 +61,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rusthypersimulation-20230921073554122/index.html">Rust 1.71 Hyper</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/luasimulation-20230922085012164/index.html">Lua 5.4 Pegasus</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rubysimulation-20230922192324693/index.html">Ruby TCP</a>
+* <a href="https://htmlpreview.github.io/?">Java 21 - Default HTTP Server</a>
 
 ### Throwing a little bit of Salt 🧂
 

@@ -11,11 +11,12 @@ import java.util.concurrent.Executors;
 public class Server {
 
     public void run() throws IOException {
+        System.out.println("Server started on http://127.0.0.1:8080/");
+
         HttpServer server = HttpServer.create(new InetSocketAddress("localhost", 8080), 0);
         server.createContext("/", new UUIDHandler());
         server.setExecutor(getExecutor());
         server.start();
-        System.out.println("Server started on port 8080!");
     }
 
     private Executor getExecutor() {

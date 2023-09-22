@@ -1,0 +1,10 @@
+{
+  "simulation": "JavaHttpServerSimulation",
+  "simulationId": "javahttpserversimulation-20230922193519476",
+  "start": 1695411320839,
+  "description": "",
+  "scenarios": ["JavaHttpServerSimulation"],
+  "assertions": [
+
+  ]
+}
