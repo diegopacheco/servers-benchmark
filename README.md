@@ -36,6 +36,7 @@
 * 9  - Python 3.11 Flask - <a href="https://github.com/rRickson">(@rRickson)</a>
 * 10 - Python 3.11 fast-api-uvicorn - <a href="https://github.com/rRickson">(@rRickson)</a>
 * 11 - Python 3.11 fast-api-hypercorn - <a href="https://github.com/rRickson">(@rRickson)</a>
+* 12 - Java 21 - Quarkus Reactive - <a href="https://github.com/dadpig">(@dadpig)</a>
 
 ### Gatling reports 📈
 
@@ -76,6 +77,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/pythonflasksimulation-20230922205154050/index.html">Python 3.11 Flask</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/pythonfastapisimulation-20230922205817316/index.html">Python 3.11 fast-api-uvicorn</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/pythonfastapihypercornsimulation-20230922211032590/index.html">Python 3.11 fast-api-hypercorn</a>
+* <a href="https://htmlpreview.github.io/?">Java 21 - Quarkus Reactive</a>
 
 ### Throwing a little bit of Salt 🧂
 
