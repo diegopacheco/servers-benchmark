@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 ./mvnw gatling:test -Dgatling.simulation=QuarkusReactSimulation
