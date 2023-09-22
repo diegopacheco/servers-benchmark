@@ -1,0 +1,10 @@
+{
+  "simulation": "RustMayMinihttpSimulation",
+  "simulationId": "rustmayminihttpsimulation-20230922101320809",
+  "start": 1695377602016,
+  "description": "",
+  "scenarios": ["RustMayMinihttpSimulation"],
+  "assertions": [
+
+  ]
+}
