@@ -3,25 +3,26 @@
 * 1  - Java 20 - Tomcat 10.1
 * 2  - Java 20 - Netty 4
 * 3  - Java 20 - Netty 4 Reactive
-* 4  - Java 20 - Undertow
-* 5  - Java 20 - Micronaut
-* 6  - Java 20 - Quarkus
-* 7 -  Kotlin 1.9 - Ktor
-* 8  - NodeJS 20 -Express
-* 9  - Deno 1.37 - Fresh
-* 10 - Bun 1.0 - Elysia
-* 11 - Bun 1.0 - Hono 
-* 12 - Python 3.11 - Twisted
-* 13 - Python 3.11 - Tornado
-* 14 - V 0.4 - pico
-* 15 - C++ - Drogon
-* 16 - Go 1.21 - net/http
-* 17 - Rust 1.71 - Actix
-* 18 - Rust 1.71 - Axum
-* 19 - Rust 1.71 - may_minihttp
-* 20 - Zig 0.11 - Zap
-* 21 - Julia 1.8.5 - Genie
-* 22 - Nim 2 - httpbeast
+* 4 -  Java 21 - Netty 4 - GraalVM 21 - Boot 3x
+* 5  - Java 20 - Undertow
+* 6  - Java 20 - Micronaut
+* 7  - Java 20 - Quarkus
+* 8 -  Kotlin 1.9 - Ktor
+* 9  - NodeJS 20 -Express
+* 10  - Deno 1.37 - Fresh
+* 11 - Bun 1.0 - Elysia
+* 12 - Bun 1.0 - Hono 
+* 13 - Python 3.11 - Twisted
+* 14 - Python 3.11 - Tornado
+* 15 - V 0.4 - pico
+* 16 - C++ - Drogon
+* 17 - Go 1.21 - net/http
+* 18 - Rust 1.71 - Actix
+* 19 - Rust 1.71 - Axum
+* 20 - Rust 1.71 - may_minihttp
+* 21 - Zig 0.11 - Zap
+* 22 - Julia 1.8.5 - Genie
+* 23 - Nim 2 - httpbeast
 
 # 🚀 Servers Benchmark - Contributions
 
@@ -43,6 +44,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/nettysimulation-20230831101614369/index.html">Boot Netty 4</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/nettymonosimulation-20230901072503134/index.html">Boot Mono Netty 4</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/nettymonosimulation2-20230919081717174/index.html">Boot Mono Netty 4 V2</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/graalvm-21-nettysimulation-20230922230621982/index.html">Java 21 - Boot 3x Netty 4 - GraalVM 21</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/tomcatsimulation-20230831101829804/index.html">Boot Tomcat 10.1</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/undertowsimulation-20230831102016479/index.html">Boot Undertow</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/micronautsimulation-20230831102207513/index.html">Micronaut</a>
@@ -277,4 +279,23 @@ Correto JDK 20
 > t >= 1200 ms                                           0 (  0%)
 > failed                                                 0 (  0%)
 ================================================================================
+```
+### Application boot time on Java 21, GraalVM 21 and Netty
+
+0.049 seconds
+```
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.3)
+
+2023-09-22T16:06:05.325-07:00  INFO 450420 --- [           main] c.g.d.sandboxspring.Application          : Starting AOT-processed Application using Java 21 with PID 450420 (/mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/servers-benchmark/server-boot-netty/target/server-boot-netty started by diego in /mnt/e35d88d4-42b9-49ea-bf29-c4c3b018d429/diego/git/diegopacheco/servers-benchmark/server-boot-netty)
+2023-09-22T16:06:05.325-07:00  INFO 450420 --- [           main] c.g.d.sandboxspring.Application          : No active profile set, falling back to 1 default profile: "default"
+2023-09-22T16:06:05.361-07:00  INFO 450420 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2023-09-22T16:06:05.362-07:00  INFO 450420 --- [           main] c.g.d.sandboxspring.Application          : Started Application in 0.049 seconds (process running for 0.055)
+Spring Boot 3.1.x working! 
 ```
