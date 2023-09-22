@@ -14,5 +14,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, () => {
-  console.log(`NodeJS 20 - No Framework, listening on port ${port}`);
+  console.log(`NodeJS 20 - No Framework, listening on http://127.0.0.1:${port}/`);
 });

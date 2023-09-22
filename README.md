@@ -31,6 +31,8 @@
 * 4 - Java 21 - default HTTP Server <a href="https://github.com/alex-carvalho">(@alex-carvalho)</a>
 * 5 - Bun http - <a href="https://github.com/mrarticuno">(@mrarticuno)</a>
 * 6 - Bun http workers - <a href="https://github.com/mrarticuno">(@mrarticuno)</a>
+* 7 - Nodejs 20 http - <a href="https://github.com/mrarticuno">(@mrarticuno)</a>
+* 8 - Nodejs 20 http workers - <a href="https://github.com/mrarticuno">(@mrarticuno)</a>
 
 ### Gatling reports 📈
 
@@ -66,6 +68,9 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/javahttpserversimulation-20230922193519476/index.html">Java 21 - Default HTTP Server</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/bunhttpserversimulation-20230922195053137/index.html">Bun http</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/bunhttpserverworkersimulation-20230922194342638/index.html">Bun http workers</a>
+* <a href="https://htmlpreview.github.io/?">Nodejs 20 http</a>
+* <a href="https://htmlpreview.github.io/?">Nodejs 20 http workers</a>
+
 
 ### Throwing a little bit of Salt 🧂
 
