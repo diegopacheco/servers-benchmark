@@ -77,15 +77,17 @@ Things that this should be doing to be better.
 Make sure you have installed and configured on the $PATH
 1. Java sdk 20
 2. Kotlin 1.9.10
-2. Zig version 0.11
-3. Rust 1.71.0
-4. Go 1.21.0
-5. g++ 11.4.0
-6. bun 1.0.0
-7. Deno 1.37
-5. Nodejs 20
-6. Python 3.11
-7. V 0.4
+3. Zig version 0.11
+4. Rust 1.71.0
+5. Go 1.21.0
+6. g++ 11.4.0
+7. bun 1.0.0
+8. Deno 1.37
+9. Nodejs 20
+10. Python 3.11
+11. V 0.4
+12. Julia 1.8.5
+13. Nim 2.0
 
 ```bash
 ./build-all.sh
