@@ -29,6 +29,8 @@
 * Lua 5.4 - Pegasus <a href="https://github.com/andreixmartins">(@andreixmartins)</a>
 * Ruby 3.2 - TCP <a href="https://github.com/andreixmartins">(@andreixmartins)</a>
 * Java 21 - default HTTP Server <a href="https://github.com/alex-carvalho">(@alex-carvalho)</a>
+* Bun http - <a href="https://github.com/mrarticuno">(@mrarticuno)</a>
+* Bun http workers - <a href="https://github.com/mrarticuno">(@mrarticuno)</a>
 
 ### Gatling reports 📈
 
@@ -58,12 +60,12 @@
 
 ### Gatling reports - Contributions 📈
 
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rusthypersimulation-20230921073554122/index.html">Rust 1.71 Hyper</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/luasimulation-20230922085012164/index.html">Lua 5.4 Pegasus</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rubysimulation-20230922192324693/index.html">Ruby TCP</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/javahttpserversimulation-20230922193519476/index.html">Java 21 - Default HTTP Server</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/bunhttpserversimulation-20230922195053137/index.html">Bun http</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/bunhttpserverworkersimulation-20230922194342638/index.html">Bun http workers</a>
+* 1 - <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rusthypersimulation-20230921073554122/index.html">Rust 1.71 Hyper</a>
+* 2 - <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/luasimulation-20230922085012164/index.html">Lua 5.4 Pegasus</a>
+* 3 - <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rubysimulation-20230922192324693/index.html">Ruby TCP</a>
+* 4 - <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/javahttpserversimulation-20230922193519476/index.html">Java 21 - Default HTTP Server</a>
+* 5 - <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/bunhttpserversimulation-20230922195053137/index.html">Bun http</a>
+* 6 - <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/bunhttpserverworkersimulation-20230922194342638/index.html">Bun http workers</a>
 
 ### Throwing a little bit of Salt 🧂
 
