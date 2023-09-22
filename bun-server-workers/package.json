@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "dev": "bun run --hot src/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

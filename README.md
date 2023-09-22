@@ -126,7 +126,7 @@ OpenJDK 64-Bit Server VM Homebrew (build 20.0.1, mixed mode, sharing)
 ### Important OS tunning
 
 1. default file descriptors for linux is 1024, mac is 256 - need to be twecked.
-2. also open files 
+2. also open files
 3. switch to ip v4
 here are steps on how to do it: https://gist.github.com/diegopacheco/ad1e63691380ad1a6b3be6b62910c3fb
 
