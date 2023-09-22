@@ -35,6 +35,7 @@
 * 8  - Nodejs 20 http workers - <a href="https://github.com/mrarticuno">(@mrarticuno)</a>
 * 9  - Python 3.11 Flask - <a href="https://github.com/rRickson">(@rRickson)</a>
 * 10 - Python 3.11 fast-api-uvicorn - <a href="https://github.com/rRickson">(@rRickson)</a>
+* 11 - Python 3.11 fast-api-hypercorn - <a href="https://github.com/rRickson">(@rRickson)</a>
 
 ### Gatling reports 📈
 
@@ -74,6 +75,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/nodejshttpserverworkersimulation-20230922204031221/index.html">Nodejs 20 http workers</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/pythonflasksimulation-20230922205154050/index.html">Python 3.11 Flask</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/pythonfastapisimulation-20230922205817316/index.html">Python 3.11 fast-api-uvicorn</a>
+* <a href="https://htmlpreview.github.io/?">Python 3.11 fast-api-hypercorn</a>
 
 ### Throwing a little bit of Salt 🧂
 
