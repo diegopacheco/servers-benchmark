@@ -231,7 +231,50 @@ HttpProtocolBuilder httpProtocol = http
 5. I will re-run on my machine, you can run all in our machine in our fork to compare different results with different hardware
 6. Add a different script to install dependencies
 
-## TODO
+## Note on Java 21
 
-* Migrate to JDK 21
-* GraalVM
+Java 21 there is some performance degradetion comparing spring boot 3x and netty.
+
+Correto JDK 21
+```
+================================================================================
+---- Global Information --------------------------------------------------------
+> request count                                      60000 (OK=60000  KO=0     )
+> min response time                                      0 (OK=0      KO=-     )
+> max response time                                    276 (OK=276    KO=-     )
+> mean response time                                     2 (OK=2      KO=-     )
+> std deviation                                         14 (OK=14     KO=-     )
+> response time 50th percentile                          1 (OK=1      KO=-     )
+> response time 75th percentile                          1 (OK=1      KO=-     )
+> response time 95th percentile                          1 (OK=1      KO=-     )
+> response time 99th percentile                          8 (OK=8      KO=-     )
+> mean requests/sec                                923.077 (OK=923.077 KO=-     )
+---- Response Time Distribution ------------------------------------------------
+> t < 800 ms                                         60000 (100%)
+> 800 ms <= t < 1200 ms                                  0 (  0%)
+> t >= 1200 ms                                           0 (  0%)
+> failed                                                 0 (  0%)
+================================================================================
+```
+
+Correto JDK 20
+```
+================================================================================
+---- Global Information --------------------------------------------------------
+> request count                                      60000 (OK=60000  KO=0     )
+> min response time                                      0 (OK=0      KO=-     )
+> max response time                                    267 (OK=267    KO=-     )
+> mean response time                                     2 (OK=2      KO=-     )
+> std deviation                                         13 (OK=13     KO=-     )
+> response time 50th percentile                          1 (OK=1      KO=-     )
+> response time 75th percentile                          1 (OK=1      KO=-     )
+> response time 95th percentile                          1 (OK=1      KO=-     )
+> response time 99th percentile                          7 (OK=7      KO=-     )
+> mean requests/sec                                923.077 (OK=923.077 KO=-     )
+---- Response Time Distribution ------------------------------------------------
+> t < 800 ms                                         60000 (100%)
+> 800 ms <= t < 1200 ms                                  0 (  0%)
+> t >= 1200 ms                                           0 (  0%)
+> failed                                                 0 (  0%)
+================================================================================
+```
