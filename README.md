@@ -25,6 +25,7 @@
 # 🚀 Servers Benchmark - Contributions
 
 * Rust 1.71 - Hyper <a href="https://github.com/andreixmartins">(@andreixmartins)</a>
+* Lua 5.4 - Pegasus <a href="https://github.com/andreixmartins">(@andreixmartins)</a> 
 
 ### Gatling reports 📈
 
@@ -54,6 +55,7 @@
 ### Gatling reports - Contributions 📈
 
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rusthypersimulation-20230921073554122/index.html">Rust 1.71 Hyper</a>
+* <a href="https://htmlpreview.github.io/?">Lua 5.4 Pegasus</a>
 
 ### Throwing a little bit of Salt 🧂
 
@@ -90,6 +92,7 @@ Make sure you have installed and configured on the $PATH
 11. V 0.4
 12. Julia 1.8.5
 13. Nim 2.0
+14. Lua 5.4
 
 ```bash
 ./build-all.sh

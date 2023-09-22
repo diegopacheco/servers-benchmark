@@ -1,0 +1,10 @@
+{
+  "simulation": "LuaSimulation",
+  "simulationId": "luasimulation-20230922085012164",
+  "start": 1695372613357,
+  "description": "",
+  "scenarios": ["LuaSimulation"],
+  "assertions": [
+
+  ]
+}
