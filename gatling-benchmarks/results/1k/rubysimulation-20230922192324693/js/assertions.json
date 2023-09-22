@@ -1,0 +1,10 @@
+{
+  "simulation": "RubySimulation",
+  "simulationId": "rubysimulation-20230922192324693",
+  "start": 1695410605932,
+  "description": "",
+  "scenarios": ["RubySimulation"],
+  "assertions": [
+
+  ]
+}
