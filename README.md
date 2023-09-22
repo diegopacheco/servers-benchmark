@@ -19,6 +19,7 @@
 * 17 - Rust 1.71 - Axum
 * 18 - Zig 0.11 - Zap
 * 19 - Julia 1.8.5 - Genie
+* 20 - Nim 2 - httpbeast
 
 # 🚀 Servers Benchmark - Contributions
 
@@ -46,6 +47,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rustaxumsimulation-20230921233750315/index.html">Rust 1.71 Axum</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/zigzapsimulation-20230901083939880/index.html">Zig 0.11 Zap</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/juliageniesimulation-20230922015229438/index.html">Julia 1.8.5 Genie</a>
+* <a href="https://htmlpreview.github.io/?">Nim 2 - httpbeast</a>
 
 ### Gatling reports - Contributions 📈
 

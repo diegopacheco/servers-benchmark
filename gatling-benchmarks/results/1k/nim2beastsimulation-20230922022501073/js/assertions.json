@@ -1,0 +1,10 @@
+{
+  "simulation": "Nim2beastSimulation",
+  "simulationId": "nim2beastsimulation-20230922022501073",
+  "start": 1695349502101,
+  "description": "",
+  "scenarios": ["Nim2beastSimulation"],
+  "assertions": [
+
+  ]
+}
