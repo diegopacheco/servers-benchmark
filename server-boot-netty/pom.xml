@@ -13,7 +13,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
     <properties>
-        <java_version>21</java_version>
+        <java_version>20</java_version>
         <maven.compiler.source>${java_version}</maven.compiler.source>
         <maven.compiler.target>${java_version}</maven.compiler.target>
         <java.version>${java_version}</java.version>
@@ -22,6 +22,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webflux</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-transport-native-epoll</artifactId>
+            <version>4.1.97.Final</version>
         </dependency>
     </dependencies>
     <build>
