@@ -71,7 +71,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/bunhttpserverworkersimulation-20230922194342638/index.html">Bun http workers</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/nodejshttpserversimulation-20230922203521630/index.html">Nodejs 20 http</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/nodejshttpserverworkersimulation-20230922204031221/index.html">Nodejs 20 http workers</a>
-* <a href="https://htmlpreview.github.io/?">Python 3.11 Flask</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/pythonflasksimulation-20230922205154050/index.html">Python 3.11 Flask</a>
 
 ### Throwing a little bit of Salt 🧂
 
