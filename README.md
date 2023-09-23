@@ -8,22 +8,23 @@
 * 6  - Java 20 - Micronaut
 * 7  - Java 20 - Quarkus
 * 8  - Java 21 - Smart Http
-* 9  - Kotlin 1.9 - Ktor
-* 10 - NodeJS 20 -Express
-* 11 - Deno 1.37 - Fresh
-* 12 - Bun 1.0 - Elysia
-* 13 - Bun 1.0 - Hono 
-* 14 - Python 3.11 - Twisted
-* 15 - Python 3.11 - Tornado
-* 16 - V 0.4 - pico
-* 17 - C++ - Drogon
-* 18 - Go 1.21 - net/http
-* 19 - Rust 1.71 - Actix
-* 20 - Rust 1.71 - Axum
-* 21 - Rust 1.71 - may_minihttp
-* 22 - Zig 0.11 - Zap
-* 23 - Julia 1.8.5 - Genie
-* 24 - Nim 2 - httpbeast
+* 10 - Java 21 - nio-iouring
+* 11  - Kotlin 1.9 - Ktor
+* 12 - NodeJS 20 -Express
+* 13 - Deno 1.37 - Fresh
+* 14 - Bun 1.0 - Elysia
+* 15 - Bun 1.0 - Hono 
+* 16 - Python 3.11 - Twisted
+* 17 - Python 3.11 - Tornado
+* 18 - V 0.4 - pico
+* 19 - C++ - Drogon
+* 20 - Go 1.21 - net/http
+* 21 - Rust 1.71 - Actix
+* 22 - Rust 1.71 - Axum
+* 23 - Rust 1.71 - may_minihttp
+* 24 - Zig 0.11 - Zap
+* 25 - Julia 1.8.5 - Genie
+* 26 - Nim 2 - httpbeast
 
 # 🚀 Servers Benchmark - Contributions
 
@@ -51,6 +52,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/micronautsimulation-20230831102207513/index.html">Micronaut</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/quarkussimulation-20230831102413091/index.html">Quarkus</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/javasmarthttpsimulation-20230923095909699/index.html">Java 21 - Smart Http</a>
+* <a href="https://htmlpreview.github.io/?">Java 21 - nio-iouring</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/ktorsimulation-20230922005446049/index.html">Kotlin 1.9 Ktor (Netty) </a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/nodejsexpresssimulation-20230901061955293/index.html">NodeJS 20 Express</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/denofreshsimulation-20230921064305734/index.html">Deno Fresh</a>
