@@ -1,0 +1,10 @@
+{
+  "simulation": "JavaSmartHttpSimulation",
+  "simulationId": "javasmarthttpsimulation-20230923095909699",
+  "start": 1695463150962,
+  "description": "",
+  "scenarios": ["JavaSmartHttpSimulation"],
+  "assertions": [
+
+  ]
+}
