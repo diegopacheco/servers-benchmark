@@ -8,23 +8,23 @@
 * 6  - Java 20 - Micronaut
 * 7  - Java 20 - Quarkus
 * 8  - Java 21 - Smart Http
-* 10 - Java 21 - nio-iouring
-* 11  - Kotlin 1.9 - Ktor
-* 12 - NodeJS 20 -Express
-* 13 - Deno 1.37 - Fresh
-* 14 - Bun 1.0 - Elysia
-* 15 - Bun 1.0 - Hono 
-* 16 - Python 3.11 - Twisted
-* 17 - Python 3.11 - Tornado
-* 18 - V 0.4 - pico
-* 19 - C++ - Drogon
-* 20 - Go 1.21 - net/http
-* 21 - Rust 1.71 - Actix
-* 22 - Rust 1.71 - Axum
-* 23 - Rust 1.71 - may_minihttp
-* 24 - Zig 0.11 - Zap
-* 25 - Julia 1.8.5 - Genie
-* 26 - Nim 2 - httpbeast
+* 9  - Java 21 - nio-iouring
+* 10 - Kotlin 1.9 - Ktor
+* 11 - NodeJS 20 -Express
+* 12 - Deno 1.37 - Fresh
+* 13 - Bun 1.0 - Elysia
+* 14 - Bun 1.0 - Hono 
+* 15 - Python 3.11 - Twisted
+* 16 - Python 3.11 - Tornado
+* 17 - V 0.4 - pico
+* 18 - C++ - Drogon
+* 19 - Go 1.21 - net/http
+* 20 - Rust 1.71 - Actix
+* 21 - Rust 1.71 - Axum
+* 22 - Rust 1.71 - may_minihttp
+* 23 - Zig 0.11 - Zap
+* 24 - Julia 1.8.5 - Genie
+* 25 - Nim 2 - httpbeast
 
 # 🚀 Servers Benchmark - Contributions
 
