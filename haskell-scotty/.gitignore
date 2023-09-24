@@ -1,0 +1,13 @@
+# Haskell
+dist/
+cabal-dev/
+*.o
+*.hi
+
+# Cabal
+.hpc/
+dist-newstyle/
+cabal.project.local
+
+# Scotty
+.scotty-env
