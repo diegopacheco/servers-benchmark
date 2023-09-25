@@ -40,6 +40,7 @@
 * 10 - Python 3.11 fast-api-uvicorn - <a href="https://github.com/rRickson">(@rRickson)</a>
 * 11 - Python 3.11 fast-api-hypercorn - <a href="https://github.com/rRickson">(@rRickson)</a>
 * 12 - Java 21 - Quarkus Reactive - <a href="https://github.com/dadpig">(@dadpig)</a>
+* 13 - Dart 3.1 - Shelf - <a href="https://github.com/brscherer">(@brscherer)</a>
 
 ### Gatling reports 📈
 
@@ -84,6 +85,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/pythonfastapisimulation-20230922205817316/index.html">Python 3.11 fast-api-uvicorn</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/pythonfastapihypercornsimulation-20230922211032590/index.html">Python 3.11 fast-api-hypercorn</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/quarkusreactsimulation-20230922215821094/index.html">Java 21 - Quarkus Reactive</a>
+* <a href="https://htmlpreview.github.io/?">Dart 3 - Shelf</a>
 
 ### Throwing a little bit of Salt 🧂
 
@@ -122,6 +124,7 @@ Make sure you have installed and configured on the $PATH
 13. Nim 2.0
 14. Lua 5.4
 15. Ruby 3.2.2
+16. Dart 3.2.1
 
 ```bash
 ./build-all.sh
@@ -232,7 +235,7 @@ HttpProtocolBuilder httpProtocol = http
 1. Create a gatling simulation
 2. Create a gatling script
 3. Create a run.sh script - add the tuning for linux os pls
-3. Add the new project with new language/framework
+3. Add the new project with new language/framework (1 pr per lang/framework)
 4. Dont publish gatling results
 5. I will re-run on my machine, you can run all in our machine in our fork to compare different results with different hardware
 6. Add a different script to install dependencies

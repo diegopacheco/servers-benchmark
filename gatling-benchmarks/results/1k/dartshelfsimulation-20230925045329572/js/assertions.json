@@ -1,0 +1,10 @@
+{
+  "simulation": "DartShelfSimulation",
+  "simulationId": "dartshelfsimulation-20230925045329572",
+  "start": 1695617610757,
+  "description": "",
+  "scenarios": ["DartShelfSimulation"],
+  "assertions": [
+
+  ]
+}
