@@ -95,7 +95,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/clojureringjettysimulation-20230925052855479/index.html">Clojure 1.11 - Ring/Jetty</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/haskellscottysimulation-20230925055042035/index.html">Haskell Scotty</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/elixirphoenixcowboysimulation-20230925061250436/index.html">Elixir - Phoenix/Cowboy</a> 
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/elixirphoenixcowboysimulation-20230925061250436/index.html">C</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/cscratchsimulation-20230925193615164/index.html">C</a>
 
 ### Throwing a little bit of Salt 🧂
 
