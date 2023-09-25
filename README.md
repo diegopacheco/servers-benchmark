@@ -46,6 +46,7 @@
 * 16 - Haskell Scotty - <a href="https://github.com/deividfsantos">(@deividfsantos)</a>
 * 17 - Elixir - Phoenix/Cowboy - <a href="https://github.com/deividfsantos">(@deividfsantos)</a>
 * 18 - C - <a href="https://github.com/Thorugoh">(@Thorugoh)</a>
+* 19 - Racket - Spin <a href="https://github.com/kilpp">(@kilpp)</a>
 
 ### Gatling reports 📈
 
@@ -139,6 +140,7 @@ Make sure you have installed and configured on the $PATH
 18. Clojure 1.11 / Leiningen 2.9
 19. Haskell 9.2 / Cabal 3.6
 20. gcc 11.4
+21. Racket 8.2
 
 ```bash
 ./build-all.sh
