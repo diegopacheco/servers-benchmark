@@ -5,6 +5,4 @@ sudo sysctl -w net.ipv4.ip_local_port_range="1025 65535"
 echo 300000 | sudo tee /proc/sys/fs/nr_open
 echo 300000 | sudo tee /proc/sys/fs/file-max
 
-docker build -f src/main/docker/Dockerfile.multistage -t quarkus/quarkus-native .
-
-docker run -i --rm -p 127.0.0.1:8080:8080 quarkus/quarkus-native
+podman run --net=host -i --rm -p 127.0.0.1:8080:8080 quarkus/quarkus-native
