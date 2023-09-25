@@ -1,0 +1,10 @@
+{
+  "simulation": "CScratchSimulation",
+  "simulationId": "cscratchsimulation-20230925193615164",
+  "start": 1695670576331,
+  "description": "",
+  "scenarios": ["CScratchSimulation"],
+  "assertions": [
+
+  ]
+}
