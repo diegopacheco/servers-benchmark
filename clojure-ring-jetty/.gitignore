@@ -1,0 +1,34 @@
+/target
+/lib
+/classes
+/checkouts
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+# Leiningen
+.lein-failures
+.lein-repl-history
+/target/
+/classes/
+/maven/
+.pnrg/
+/repl-env/
+
+# Cursive (IDE para Clojure)
+.idea/
+
+# Logs
+/logs/
+/log/
+
+# Compiled Clojure
+*.class
+
+# Dependencies
+/lib/
+/libs/
+/pom.xml
+/dependency-tree.txt
