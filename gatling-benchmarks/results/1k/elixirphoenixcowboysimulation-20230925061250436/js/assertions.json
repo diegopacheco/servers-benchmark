@@ -1,0 +1,10 @@
+{
+  "simulation": "ElixirPhoenixCowboySimulation",
+  "simulationId": "elixirphoenixcowboysimulation-20230925061250436",
+  "start": 1695622371860,
+  "description": "",
+  "scenarios": ["ElixirCowboySimulation"],
+  "assertions": [
+
+  ]
+}
