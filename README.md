@@ -134,8 +134,8 @@ Make sure you have installed and configured on the $PATH
 15. Ruby 3.2.2
 16. Dart 3.2.1
 17. Podman 3.4.2
-18. Leiningen 2.9
-19. Cabal 3.6
+18. Clojure 1.11 / Leiningen 2.9
+19. Haskell 9.2 / Cabal 3.6
 
 ```bash
 ./build-all.sh

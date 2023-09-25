@@ -1,0 +1,10 @@
+{
+  "simulation": "HaskellScottySimulation",
+  "simulationId": "haskellscottysimulation-20230925055042035",
+  "start": 1695621043278,
+  "description": "",
+  "scenarios": ["HaskellScottySimulation"],
+  "assertions": [
+
+  ]
+}
