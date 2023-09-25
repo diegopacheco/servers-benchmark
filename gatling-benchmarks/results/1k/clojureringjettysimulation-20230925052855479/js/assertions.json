@@ -1,0 +1,10 @@
+{
+  "simulation": "ClojureRingJettySimulation",
+  "simulationId": "clojureringjettysimulation-20230925052855479",
+  "start": 1695619736764,
+  "description": "",
+  "scenarios": ["ClojureRingJettySimulation"],
+  "assertions": [
+
+  ]
+}

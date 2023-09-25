@@ -41,7 +41,10 @@
 * 11 - Python 3.11 fast-api-hypercorn - <a href="https://github.com/rRickson">(@rRickson)</a>
 * 12 - Java 21 - Quarkus Reactive - <a href="https://github.com/dadpig">(@dadpig)</a>
 * 13 - Dart 3.1 - Shelf - <a href="https://github.com/brscherer">(@brscherer)</a>
-* 14 - Java 17 - Quarkus Native - Mandrel Podman <a href="https://github.com/andremayer">(@andremayer)</a> 
+* 14 - Java 17 - Quarkus Native - Mandrel Podman <a href="https://github.com/andremayer">(@andremayer)</a>
+* 15 - Clojure 1.11 - Ring/Jetty - <a href="https://github.com/deividfsantos">(@deividfsantos)</a>
+* 16 - Haskell Scotty - <a href="https://github.com/deividfsantos">(@deividfsantos)</a>
+* 17 - Elixir - Phoenix/Cowboy - <a href="https://github.com/deividfsantos">(@deividfsantos)</a>
 
 ### Gatling reports 📈
 
@@ -128,6 +131,8 @@ Make sure you have installed and configured on the $PATH
 15. Ruby 3.2.2
 16. Dart 3.2.1
 17. Podman 3.4.2
+18. Leiningen 2.9
+19. Cabal 3.6
 
 ```bash
 ./build-all.sh
