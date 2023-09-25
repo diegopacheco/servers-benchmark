@@ -45,6 +45,9 @@
 * 15 - Clojure 1.11 - Ring/Jetty - <a href="https://github.com/deividfsantos">(@deividfsantos)</a>
 * 16 - Haskell Scotty - <a href="https://github.com/deividfsantos">(@deividfsantos)</a>
 * 17 - Elixir - Phoenix/Cowboy - <a href="https://github.com/deividfsantos">(@deividfsantos)</a>
+* 18 - Gleam - mist - <a href="https://github.com/LucasKonrath">(@LucasKonrath)</a>
+* 19 - Java 8 - Blade - <a href="https://github.com/LucasKonrath">(@LucasKonrath)</a>
+* 20 - Crystal - Spider Gazelle - <a href="https://github.com/LucasKonrath">(@LucasKonrath)</a>
 
 ### Gatling reports 📈
 
@@ -136,6 +139,8 @@ Make sure you have installed and configured on the $PATH
 17. Podman 3.4.2
 18. Clojure 1.11 / Leiningen 2.9
 19. Haskell 9.2 / Cabal 3.6
+20. Gleam 0.30.5
+21. Crystal 1.9.2
 
 ```bash
 ./build-all.sh
