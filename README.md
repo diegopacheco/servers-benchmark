@@ -45,6 +45,7 @@
 * 15 - Clojure 1.11 - Ring/Jetty - <a href="https://github.com/deividfsantos">(@deividfsantos)</a>
 * 16 - Haskell Scotty - <a href="https://github.com/deividfsantos">(@deividfsantos)</a>
 * 17 - Elixir - Phoenix/Cowboy - <a href="https://github.com/deividfsantos">(@deividfsantos)</a>
+* 18 - C - <a href="https://github.com/Thorugoh">(@Thorugoh)</a>
 
 ### Gatling reports 📈
 
@@ -94,6 +95,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/clojureringjettysimulation-20230925052855479/index.html">Clojure 1.11 - Ring/Jetty</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/haskellscottysimulation-20230925055042035/index.html">Haskell Scotty</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/elixirphoenixcowboysimulation-20230925061250436/index.html">Elixir - Phoenix/Cowboy</a> 
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/elixirphoenixcowboysimulation-20230925061250436/index.html">C</a>
 
 ### Throwing a little bit of Salt 🧂
 
@@ -136,6 +138,7 @@ Make sure you have installed and configured on the $PATH
 17. Podman 3.4.2
 18. Clojure 1.11 / Leiningen 2.9
 19. Haskell 9.2 / Cabal 3.6
+20. gcc 11.4
 
 ```bash
 ./build-all.sh
