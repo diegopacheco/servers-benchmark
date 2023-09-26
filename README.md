@@ -25,6 +25,7 @@
 * 23 - Zig 0.11 - Zap
 * 24 - Julia 1.8.5 - Genie
 * 25 - Nim 2 - httpbeast
+* 26 - Ocaml 5.1 - http_async
 
 # 🚀 Servers Benchmark - Contributions
 
@@ -76,6 +77,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/zigzapsimulation-20230901083939880/index.html">Zig 0.11 Zap</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/juliageniesimulation-20230922015229438/index.html">Julia 1.8.5 Genie</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/nim2beastsimulation-20230922022501073/index.html">Nim 2 - httpbeast</a>
+* <a href="https://htmlpreview.github.io/?">Ocaml 5 - http_async</a>
 
 ### Gatling reports - Contributions 📈
 
@@ -142,6 +144,7 @@ Make sure you have installed and configured on the $PATH
 19. Haskell 9.2 / Cabal 3.6
 20. gcc 11.4
 21. Racket 8.2
+22. Ocaml 5.1 / opam 2.1 / dune 3.7
 
 ```bash
 ./build-all.sh
