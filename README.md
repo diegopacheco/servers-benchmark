@@ -25,6 +25,7 @@
 * 23 - Zig 0.11 - Zap
 * 24 - Julia 1.8.5 - Genie
 * 25 - Nim 2 - httpbeast
+* 26 - Ocaml 5.1 - http_async
 
 # 🚀 Servers Benchmark - Contributions
 
@@ -46,9 +47,10 @@
 * 16 - Haskell Scotty - <a href="https://github.com/deividfsantos">(@deividfsantos)</a>
 * 17 - Elixir - Phoenix/Cowboy - <a href="https://github.com/deividfsantos">(@deividfsantos)</a>
 * 18 - C - <a href="https://github.com/Thorugoh">(@Thorugoh)</a>
-* 19 - Gleam - mist - <a href="https://github.com/LucasKonrath">(@LucasKonrath)</a>
-* 20 - Java 8 - Blade - <a href="https://github.com/LucasKonrath">(@LucasKonrath)</a>
-* 21 - Crystal - Spider Gazelle - <a href="https://github.com/LucasKonrath">(@LucasKonrath)</a>
+* 19 - Racket - Spin <a href="https://github.com/kilpp">(@kilpp)</a>
+* 20 - Gleam - mist - <a href="https://github.com/LucasKonrath">(@LucasKonrath)</a>
+* 21 - Java 8 - Blade - <a href="https://github.com/LucasKonrath">(@LucasKonrath)</a>
+* 22 - Crystal - Spider Gazelle - <a href="https://github.com/LucasKonrath">(@LucasKonrath)</a>
 
 ### Gatling reports 📈
 
@@ -78,6 +80,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/java-pocs/blob/master/pocs/server-benchmarks-fun/gatling-benchmarks/results/1k/zigzapsimulation-20230901083939880/index.html">Zig 0.11 Zap</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/juliageniesimulation-20230922015229438/index.html">Julia 1.8.5 Genie</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/nim2beastsimulation-20230922022501073/index.html">Nim 2 - httpbeast</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/ocamlhttpasyncsimulation-20230926085859534/index.html">Ocaml 5 - http_async</a>
 
 ### Gatling reports - Contributions 📈
 
@@ -99,6 +102,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/haskellscottysimulation-20230925055042035/index.html">Haskell Scotty</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/elixirphoenixcowboysimulation-20230925061250436/index.html">Elixir - Phoenix/Cowboy</a> 
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/cscratchsimulation-20230925193615164/index.html">C</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/racketspinsimulation-20230925235144482/index.html">Racket - Spin</a>
 
 ### Throwing a little bit of Salt 🧂
 
@@ -142,8 +146,10 @@ Make sure you have installed and configured on the $PATH
 18. Clojure 1.11 / Leiningen 2.9
 19. Haskell 9.2 / Cabal 3.6
 20. gcc 11.4
-20. Gleam 0.30.5
-21. Crystal 1.9.2
+21. Racket 8.2
+22. Ocaml 5.1 / opam 2.1 / dune 3.7
+23. Gleam 0.30.5
+24. Crystal 1.9.2
 
 ```bash
 ./build-all.sh

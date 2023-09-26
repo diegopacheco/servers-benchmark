@@ -1,0 +1,4 @@
+(executable
+ (public_name project)
+ (name main)
+ (libraries uuidm core async http_async core_unix.command_unix project))

@@ -1,0 +1,10 @@
+{
+  "simulation": "RacketSpinSimulation",
+  "simulationId": "racketspinsimulation-20230925235144482",
+  "start": 1695685905707,
+  "description": "",
+  "scenarios": ["RacketSpinSimulation"],
+  "assertions": [
+
+  ]
+}
