@@ -28,7 +28,8 @@
 * 26 - Ocaml 5.1 - http_async
 * 27 - PHP 8.1 - embedded server
 * 28 - PHP 8.1 - Nginx
-* 29 - Scala 3.0 - JDK 21 - Zio Http 
+* 29 - Scala 3.0 - JDK 21 - Zio Http
+* 30 - Scala 3.0 - JDK 21 - Play 2.9
 
 # 🚀 Servers Benchmark - Contributions
 
@@ -84,6 +85,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/phpembededserversimulation-20230927052808543/index.html">PHP 8.1 - Embedded Server</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/phpnginxsimulation-20230927054623525/index.html">PHP 8.1 - Nginx</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/scala3ziohttpsimulation-20230927075424874/index.html">Scala 3.0 - JDK 21 - Zio Http</a>
+* <a href="https://htmlpreview.github.io/?">Scala 3.0 - JDK 21 - Play 2.9</a>
 
 ### Gatling reports - Contributions 📈
 
