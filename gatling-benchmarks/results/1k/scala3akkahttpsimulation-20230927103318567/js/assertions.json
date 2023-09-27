@@ -1,0 +1,10 @@
+{
+  "simulation": "Scala3AkkaHttpSimulation",
+  "simulationId": "scala3akkahttpsimulation-20230927103318567",
+  "start": 1695810799889,
+  "description": "",
+  "scenarios": ["Scala3AkkaHttpSimulation"],
+  "assertions": [
+
+  ]
+}
