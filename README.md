@@ -26,6 +26,7 @@
 * 24 - Julia 1.8.5 - Genie
 * 25 - Nim 2 - httpbeast
 * 26 - Ocaml 5.1 - http_async
+* 27 - PHP 8.1 - embedded server
 
 # 🚀 Servers Benchmark - Contributions
 
@@ -78,6 +79,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/juliageniesimulation-20230922015229438/index.html">Julia 1.8.5 Genie</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/nim2beastsimulation-20230922022501073/index.html">Nim 2 - httpbeast</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/ocamlhttpasyncsimulation-20230926085859534/index.html">Ocaml 5 - http_async</a>
+* <a href="https://htmlpreview.github.io/?">PHP 8.1 - Embedded Server</a>
 
 ### Gatling reports - Contributions 📈
 
