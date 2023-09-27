@@ -108,7 +108,6 @@
 ### Throwing a little bit of Salt 🧂
 
 Things that this should be doing to be better.
-
 * Wram up
 * Run on AWS
 * Have 2 different machines for server and gatling
