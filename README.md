@@ -27,6 +27,7 @@
 * 25 - Nim 2 - httpbeast
 * 26 - Ocaml 5.1 - http_async
 * 27 - PHP 8.1 - embedded server
+* 28 - PHP 8.1 - Nginx
 
 # 🚀 Servers Benchmark - Contributions
 
