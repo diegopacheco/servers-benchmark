@@ -1,7 +1,7 @@
 {
   "simulation": "Scala3Play2Simulation",
-  "simulationId": "scala3play2simulation-20230927092849070",
-  "start": 1695806930071,
+  "simulationId": "scala3play2simulation-20230927093935324",
+  "start": 1695807576586,
   "description": "",
   "scenarios": ["Scala3Play2Simulation"],
   "assertions": [

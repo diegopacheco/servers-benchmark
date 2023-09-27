@@ -3,7 +3,9 @@ organization := "com.example"
 
 version := "1.0-SNAPSHOT"
 
-lazy val root = (project in file(".")).enablePlugins(PlayScala)
+lazy val root = (project in file("."))
+  .enablePlugins(PlayScala, PlayNettyServer)
+  .disablePlugins(PlayAkkaHttpServer)
 
 //scalaVersion := "2.13.12"
 scalaVersion := "3.3.1"
