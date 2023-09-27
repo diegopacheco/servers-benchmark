@@ -5,4 +5,4 @@ sudo sysctl -w net.ipv4.ip_local_port_range="1025 65535"
 echo 300000 | sudo tee /proc/sys/fs/nr_open
 echo 300000 | sudo tee /proc/sys/fs/file-max
 
-./mvnw gatling:test -Dgatling.simulation=Scala3Play2Simulation
+./mvnw gatling:test -Dgatling.simulation=Scala3Play2Simulation -Djava.net.preferIPv4Stack=true -Djava.net.preferIPv6Addresses=false
