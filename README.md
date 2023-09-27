@@ -83,7 +83,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/ocamlhttpasyncsimulation-20230926085859534/index.html">Ocaml 5 - http_async</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/phpembededserversimulation-20230927052808543/index.html">PHP 8.1 - Embedded Server</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/phpnginxsimulation-20230927054623525/index.html">PHP 8.1 - Nginx</a>
-* <a href="https://htmlpreview.github.io/?">Scala 3.0 - JDK 21 - Zio Http</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/scala3ziohttpsimulation-20230927075424874/index.html">Scala 3.0 - JDK 21 - Zio Http</a>
 
 ### Gatling reports - Contributions 📈
 
