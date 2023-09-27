@@ -85,7 +85,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/phpembededserversimulation-20230927052808543/index.html">PHP 8.1 - Embedded Server</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/phpnginxsimulation-20230927054623525/index.html">PHP 8.1 - Nginx</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/scala3ziohttpsimulation-20230927075424874/index.html">Scala 3.0 - JDK 21 - Zio Http</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/scala3play2simulation-20230927083041283/index.html">Scala 3.0 - JDK 21 - Play 2.9</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/scala3play2simulation-20230927092849070/index.html">Scala 3.0 - JDK 21 - Play 2.9</a>
 
 ### Gatling reports - Contributions 📈
 
