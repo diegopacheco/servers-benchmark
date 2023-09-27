@@ -147,6 +147,7 @@ Make sure you have installed and configured on the $PATH
 20. gcc 11.4
 21. Racket 8.2
 22. Ocaml 5.1 / opam 2.1 / dune 3.7
+23. PHP 8.1
 
 ```bash
 ./build-all.sh
