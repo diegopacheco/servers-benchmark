@@ -1,0 +1,10 @@
+{
+  "simulation": "PHPNginxSimulation",
+  "simulationId": "phpnginxsimulation-20230927054623525",
+  "start": 1695793584672,
+  "description": "",
+  "scenarios": ["PHPNginxSimulation"],
+  "assertions": [
+
+  ]
+}
