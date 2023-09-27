@@ -80,6 +80,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/nim2beastsimulation-20230922022501073/index.html">Nim 2 - httpbeast</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/ocamlhttpasyncsimulation-20230926085859534/index.html">Ocaml 5 - http_async</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/phpembededserversimulation-20230927052808543/index.html">PHP 8.1 - Embedded Server</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/phpnginxsimulation-20230927054623525/index.html">PHP 8.1 - Nginx</a>
 
 ### Gatling reports - Contributions 📈
 
