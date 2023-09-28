@@ -1,0 +1,10 @@
+{
+  "simulation": "JavaBladeSimulation",
+  "simulationId": "javabladesimulation-20230928060755901",
+  "start": 1695881277254,
+  "description": "",
+  "scenarios": ["JavaBladeSimulation"],
+  "assertions": [
+
+  ]
+}
