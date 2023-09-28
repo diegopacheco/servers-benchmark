@@ -18,4 +18,14 @@ cd go-nethttp/
 go build
 cd ../
 
+echo ">>> Building Gleam"
+cd server-gleam-mist/
+gleam build
+cd ../
+
+echo ">>> Building Crystal"
+cd spider-gazelle/
+crystal build ./src/app.cr
+cd ../
+
 echo ">>> DONE. "
