@@ -163,7 +163,7 @@ Make sure you have installed and configured on the $PATH
 23. PHP 8.1
 24. Scala 3.3.1 / sbt 1.9.6
 25. Crystal 1.9.2
-26. Gleam 0.9.1
+26. Gleam 0.31.0 / mist 0.13.2
 
 ```bash
 ./build-all.sh
