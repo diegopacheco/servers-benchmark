@@ -53,6 +53,7 @@
 * 17 - Elixir - Phoenix/Cowboy - <a href="https://github.com/deividfsantos">(@deividfsantos)</a>
 * 18 - C - <a href="https://github.com/Thorugoh">(@Thorugoh)</a>
 * 19 - Racket - Spin <a href="https://github.com/kilpp">(@kilpp)</a>
+* 20 - Crystal 1.9.2 - Spider - <a href="https://github.com/LucasKonrath">(@LucasKonrath)</a> 
 
 ### Gatling reports 📈
 
@@ -110,6 +111,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/elixirphoenixcowboysimulation-20230925061250436/index.html">Elixir - Phoenix/Cowboy</a> 
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/cscratchsimulation-20230925193615164/index.html">C</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/racketspinsimulation-20230925235144482/index.html">Racket - Spin</a>
+* <a href="https://htmlpreview.github.io/?">Crystal 1.9.2 - Spider</a>
 
 ### Throwing a little bit of Salt 🧂
 
