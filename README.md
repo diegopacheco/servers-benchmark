@@ -113,7 +113,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/cscratchsimulation-20230925193615164/index.html">C</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/racketspinsimulation-20230925235144482/index.html">Racket - Spin</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/crystalspidergazellesimulation-20230928055122772/index.html">Crystal 1.9.2 - Spider</a>
-* <a href="https://htmlpreview.github.io/?">Java 8 - Blade</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/javabladesimulation-20230928060755901/index.html">Java 8 - Blade</a>
 
 ### Throwing a little bit of Salt 🧂
 
