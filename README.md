@@ -55,6 +55,7 @@
 * 19 - Racket - Spin <a href="https://github.com/kilpp">(@kilpp)</a>
 * 20 - Crystal 1.9.2 - Spider - <a href="https://github.com/LucasKonrath">(@LucasKonrath)</a>
 * 21 - Java 8 - Blade - <a href="https://github.com/LucasKonrath">(@LucasKonrath)</a>
+* 22 - Gleam - Mist - <a href="https://github.com/LucasKonrath">(@LucasKonrath)</a>
 
 ### Gatling reports 📈
 
@@ -114,6 +115,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/racketspinsimulation-20230925235144482/index.html">Racket - Spin</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/crystalspidergazellesimulation-20230928055122772/index.html">Crystal 1.9.2 - Spider</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/javabladesimulation-20230928060755901/index.html">Java 8 - Blade</a>
+* <a href="https://htmlpreview.github.io/?">Gleam - Mist</a>
 
 ### Throwing a little bit of Salt 🧂
 
@@ -160,6 +162,8 @@ Make sure you have installed and configured on the $PATH
 22. Ocaml 5.1 / opam 2.1 / dune 3.7
 23. PHP 8.1
 24. Scala 3.3.1 / sbt 1.9.6
+25. Crystal 1.9.2
+26. Gleam 0.9.1
 
 ```bash
 ./build-all.sh
