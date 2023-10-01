@@ -119,7 +119,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/javabladesimulation-20230928060755901/index.html">Java 8 - Blade</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/gleammistsimulation-20230928071343301/index.html">Gleam - Mist</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rustgothamsimulation-20230930010745272/index.html">Rust 1.7.1 - Gotham</a>
-* <a href="https://htmlpreview.github.io/?">Rust 1.72.1 - Salvo</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rustsalvosimulation-20231001211803463/index.html">Rust 1.72.1 - Salvo</a>
 
 ### Throwing a little bit of Salt 🧂
 
