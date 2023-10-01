@@ -1,0 +1,24 @@
+[package]
+name = "xitca-web-uuid"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+xitca-web = { version = "0.1.0", features = ["json"], optional = false }
+
+[dependencies.uuid]
+version = "1.4.1"
+features = [
+    "v4",                
+    "fast-rng",          
+    "macro-diagnostics", 
+]
+
+[patch.crates-io]
+xitca-http = { git = "https://github.com/HFQR/xitca-web.git", rev = "4e753aab303446b3375c4c96188789107d274cf0" }
+xitca-io = { git = "https://github.com/HFQR/xitca-web.git", rev = "4e753aab303446b3375c4c96188789107d274cf0" }
+xitca-router = { git = "https://github.com/HFQR/xitca-web.git", rev = "4e753aab303446b3375c4c96188789107d274cf0" }
+xitca-server = { git = "https://github.com/HFQR/xitca-web.git", rev = "4e753aab303446b3375c4c96188789107d274cf0" }
+xitca-service = { git = "https://github.com/HFQR/xitca-web.git", rev = "4e753aab303446b3375c4c96188789107d274cf0" }
+xitca-unsafe-collection = { git = "https://github.com/HFQR/xitca-web.git", rev = "4e753aab303446b3375c4c96188789107d274cf0" }
+xitca-web = { git = "https://github.com/HFQR/xitca-web.git", rev = "4e753aab303446b3375c4c96188789107d274cf0" }
