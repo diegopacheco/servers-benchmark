@@ -19,12 +19,12 @@ go build
 cd ../
 
 echo ">>> Building Gleam"
-cd server-gleam-mist/
+cd gleam-mist/
 gleam build
 cd ../
 
 echo ">>> Building Crystal"
-cd spider-gazelle/
+cd crystal-spider-gazelle/
 crystal build ./src/app.cr
 cd ../
 
