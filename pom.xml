@@ -17,6 +17,6 @@
         <module>server-boot-undertow</module>
         <module>server-micronaut</module>
         <module>server-quarkus</module>
-        <module>server-blade</module>
+        <module>java-blade</module>
     </modules>
 </project>
