@@ -53,6 +53,12 @@
 * 17 - Elixir - Phoenix/Cowboy - <a href="https://github.com/deividfsantos">(@deividfsantos)</a>
 * 18 - C - <a href="https://github.com/Thorugoh">(@Thorugoh)</a>
 * 19 - Racket - Spin <a href="https://github.com/kilpp">(@kilpp)</a>
+* 20 - Crystal 1.9.2 - Spider - <a href="https://github.com/LucasKonrath">(@LucasKonrath)</a>
+* 21 - Java 8 - Blade - <a href="https://github.com/LucasKonrath">(@LucasKonrath)</a>
+* 22 - Gleam - Mist - <a href="https://github.com/LucasKonrath">(@LucasKonrath)</a>
+* 23 - Rust 1.7.1  - Gotham - <a href="https://github.com/andreixmartins">(@andreixmartins)</a>
+* 24 - Rust 1.72.1 - Salvo <a href="https://github.com/andremayer">(@andremayer)</a>
+* 25 - Rust 1.74.0-nightly - xitca <a href="https://github.com/andremayer">(@andremayer)</a>
 
 ### Gatling reports 📈
 
@@ -110,6 +116,12 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/elixirphoenixcowboysimulation-20230925061250436/index.html">Elixir - Phoenix/Cowboy</a> 
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/cscratchsimulation-20230925193615164/index.html">C</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/racketspinsimulation-20230925235144482/index.html">Racket - Spin</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/crystalspidergazellesimulation-20230928055122772/index.html">Crystal 1.9.2 - Spider</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/javabladesimulation-20230928060755901/index.html">Java 8 - Blade</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/gleammistsimulation-20230928071343301/index.html">Gleam - Mist</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rustgothamsimulation-20230930010745272/index.html">Rust 1.7.1 - Gotham</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rustsalvosimulation-20231001211803463/index.html">Rust 1.72.1 - Salvo</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rustxitcasimulation-20231001213138805/index.html">Rust 1.74.0-nightly (ca62d2c44 2023-09-30) - Xitca</a>
 
 ### Throwing a little bit of Salt 🧂
 
@@ -156,6 +168,8 @@ Make sure you have installed and configured on the $PATH
 22. Ocaml 5.1 / opam 2.1 / dune 3.7
 23. PHP 8.1
 24. Scala 3.3.1 / sbt 1.9.6
+25. Crystal 1.9.2
+26. Gleam 0.31.0 / mist 0.13.2
 
 ```bash
 ./build-all.sh

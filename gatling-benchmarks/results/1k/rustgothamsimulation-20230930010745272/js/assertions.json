@@ -1,0 +1,10 @@
+{
+  "simulation": "RustGothamSimulation",
+  "simulationId": "rustgothamsimulation-20230930010745272",
+  "start": 1696036066541,
+  "description": "",
+  "scenarios": ["RustGothamSimulation"],
+  "assertions": [
+
+  ]
+}

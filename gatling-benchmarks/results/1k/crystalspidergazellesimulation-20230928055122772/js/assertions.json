@@ -1,0 +1,10 @@
+{
+  "simulation": "CrystalSpiderGazelleSimulation",
+  "simulationId": "crystalspidergazellesimulation-20230928055122772",
+  "start": 1695880284092,
+  "description": "",
+  "scenarios": ["CrystalSpiderGazelleSimulation"],
+  "assertions": [
+
+  ]
+}
