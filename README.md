@@ -357,3 +357,67 @@ Spring Boot 3.1.x working!
 Linux Kernel: 6.2.0-1009-lowlatency 
 OS          : Ubuntu 22.04.3 LTS
 ```
+```bash
+inxi -Fxz
+```
+```
+System:
+  Kernel: 6.2.0-1009-lowlatency x86_64 bits: 64 compiler: N/A
+    Desktop: GNOME 42.9 Distro: Ubuntu 22.04.3 LTS (Jammy Jellyfish)
+Machine:
+  Type: Laptop System: Avell High Performance product: Avell G1555 MUV / A62
+    v: Standard serial: <superuser required>
+  Mobo: Avell High Performance model: Avell G1555 MUV / A62 v: Standard
+    serial: <superuser required> UEFI: American Megatrends v: N.1.04
+    date: 08/13/2019
+Battery:
+  ID-1: BAT0 charge: 44.9 Wh (96.1%) condition: 46.7/46.7 Wh (100.0%)
+    volts: 12.5 min: 11.4 model: standard status: Not charging
+CPU:
+  Info: 6-core model: Intel Core i7-9750H bits: 64 type: MT MCP
+    arch: Coffee Lake rev: A cache: L1: 384 KiB L2: 1.5 MiB L3: 12 MiB
+  Speed (MHz): avg: 3498 high: 4202 min/max: 800/4500 cores: 1: 4154
+    2: 4200 3: 2600 4: 4196 5: 2600 6: 4092 7: 2600 8: 4127 9: 4202 10: 4014
+    11: 2600 12: 2600 bogomips: 62399
+  Flags: avx avx2 ht lm nx pae sse sse2 sse3 sse4_1 sse4_2 ssse3 vmx
+Graphics:
+  Device-1: Intel CoffeeLake-H GT2 [UHD Graphics 630]
+    vendor: Tongfang Hongkong driver: i915 v: kernel bus-ID: 00:02.0
+  Device-2: NVIDIA TU116M [GeForce GTX 1660 Ti Mobile]
+    vendor: Tongfang Hongkong driver: nouveau v: kernel bus-ID: 01:00.0
+  Device-3: Logitech BRIO Ultra HD Webcam type: USB
+    driver: snd-usb-audio,uvcvideo bus-ID: 1-12.4:10
+  Device-4: Acer HD Webcam type: USB driver: uvcvideo bus-ID: 1-13:5
+  Display: wayland server: X.Org v: 1.22.1.1 with: Xwayland v: 22.1.1
+    compositor: gnome-shell driver: X: loaded: modesetting,nvidia
+    unloaded: fbdev,nouveau,vesa gpu: i915,nouveau resolution:
+    1: 3840x2160~60Hz 2: 1920x1080~60Hz
+  OpenGL: renderer: Mesa Intel UHD Graphics 630 (CFL GT2)
+    v: 4.6 Mesa 23.0.4-0ubuntu1~22.04.1 direct render: Yes
+Network:
+  Device-1: Intel Cannon Lake PCH CNVi WiFi driver: iwlwifi v: kernel
+    bus-ID: 00:14.3
+  IF: wlo1 state: up mac: <filter>
+  Device-2: Realtek RTL8111/8168/8411 PCI Express Gigabit Ethernet
+    driver: r8169 v: kernel port: N/A bus-ID: 03:00.0
+Drives:
+  Local Storage: total: 1.36 TiB used: 742.63 GiB (53.1%)
+  ID-1: /dev/nvme0n1 vendor: Samsung model: SSD 970 EVO Plus 500GB
+    size: 465.76 GiB temp: 50.9 C
+  ID-2: /dev/sda vendor: Crucial model: CT1000MX500SSD1 size: 931.51 GiB
+Partition:
+  ID-1: / size: 456.89 GiB used: 372.27 GiB (81.5%) fs: ext4
+    dev: /dev/nvme0n1p2
+  ID-2: /boot/efi size: 511 MiB used: 6.1 MiB (1.2%) fs: vfat
+    dev: /dev/nvme0n1p1
+Swap:
+  ID-1: swap-1 type: file size: 2 GiB used: 0 KiB (0.0%) file: /swapfile
+Sensors:
+  System Temperatures: cpu: 84.0 C pch: 75.0 C mobo: 84.0 C gpu: nouveau
+    temp: 69.0 C
+  Fan Speeds (RPM): N/A
+Info:
+  Processes: 449 Uptime: 1d 45m Memory: 62.65 GiB used: 10.58 GiB (16.9%)
+  Init: systemd runlevel: 5 Compilers: gcc: 11.4.0 clang: 16.0.4
+  Packages: 4360 Shell: Zsh v: 5.8.1 inxi: 3.3.13
+```
