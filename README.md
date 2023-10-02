@@ -351,3 +351,9 @@ Correto JDK 20
 2023-09-22T16:06:05.362-07:00  INFO 450420 --- [           main] c.g.d.sandboxspring.Application          : Started Application in 0.049 seconds (process running for 0.055)
 Spring Boot 3.1.x working! 
 ```
+
+## Server Spec
+```
+Linux Kernel: 6.2.0-1009-lowlatency 
+OS          : Ubuntu 22.04.3 LTS
+```
