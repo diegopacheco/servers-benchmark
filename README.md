@@ -123,7 +123,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rustgothamsimulation-20230930010745272/index.html">Rust 1.7.1 - Gotham</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rustsalvosimulation-20231001211803463/index.html">Rust 1.72.1 - Salvo</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rustxitcasimulation-20231001213138805/index.html">Rust 1.74.0-nightly (ca62d2c44 2023-09-30) - Xitca</a>
-* <a href="https://htmlpreview.github.io/?">Haskell - Warp</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/haskellwarpsimulation-20231003073823194/index.html">Haskell - Warp</a>
 
 ### Throwing a little bit of Salt 🧂
 
