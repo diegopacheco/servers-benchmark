@@ -59,6 +59,7 @@
 * 23 - Rust 1.7.1  - Gotham - <a href="https://github.com/andreixmartins">(@andreixmartins)</a>
 * 24 - Rust 1.72.1 - Salvo <a href="https://github.com/andremayer">(@andremayer)</a>
 * 25 - Rust 1.74.0-nightly - xitca <a href="https://github.com/andremayer">(@andremayer)</a>
+* 26 - Haskell - Warp <a href="https://github.com/brunohaetinger">(@brunohaetinger)</a>
 
 ### Gatling reports 📈
 
@@ -122,6 +123,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rustgothamsimulation-20230930010745272/index.html">Rust 1.7.1 - Gotham</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rustsalvosimulation-20231001211803463/index.html">Rust 1.72.1 - Salvo</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rustxitcasimulation-20231001213138805/index.html">Rust 1.74.0-nightly (ca62d2c44 2023-09-30) - Xitca</a>
+* <a href="https://htmlpreview.github.io/?">Haskell - Warp</a>
 
 ### Throwing a little bit of Salt 🧂
 

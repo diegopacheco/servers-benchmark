@@ -30,7 +30,7 @@ executable haskell
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
     build-depends:    
-        base ^>=4.16.4.0,
+        base ^>=4.16.3.0,
         warp >= 3.3,
         wai >= 3.2,
         http-types,

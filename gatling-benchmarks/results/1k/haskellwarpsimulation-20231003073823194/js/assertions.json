@@ -1,0 +1,10 @@
+{
+  "simulation": "HaskellWarpSimulation",
+  "simulationId": "haskellwarpsimulation-20231003073823194",
+  "start": 1696318704508,
+  "description": "",
+  "scenarios": ["HaskellWarpSimulation"],
+  "assertions": [
+
+  ]
+}
