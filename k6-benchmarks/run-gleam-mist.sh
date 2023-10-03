@@ -1,0 +1,1 @@
+./k6 run -e TEST=gleam-mist -e URL='http://127.0.0.1:3000/uuid' --out dashboard=report=results/gleam-mist-1k.html test.js 
