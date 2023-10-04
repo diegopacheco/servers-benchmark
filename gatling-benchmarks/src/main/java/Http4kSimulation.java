@@ -24,7 +24,7 @@ public class Http4kSimulation extends Simulation {
     {
         setUp(scn.
                 injectOpen(
-                        constantUsersPerSec(1_000).during(10)
+                        constantUsersPerSec(1_000).during(60)
                 )
         ).protocols(httpProtocol);
     }
