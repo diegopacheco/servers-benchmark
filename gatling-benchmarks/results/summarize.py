@@ -32,7 +32,7 @@ def simulations_to_markdown():
         
     result = sorted(simulations, key=lambda k: (-k['numberOfRequests'], k["maxResponseTime"], k['p99']))
     markdown = ""
-    markdown += "|#|Simulation|Requests|Min|Max|Mean|p50|p75|p95|p99|\n"
+    markdown += "|#|Simulation|Reqs|Min|Max|Mean|p50|p75|p95|p99|\n"
     markdown += "|-:|:-|-:|-:|-:|-:|-:|-:|-:|-:|\n"
 
     number = 0
