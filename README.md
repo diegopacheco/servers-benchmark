@@ -425,3 +425,69 @@ Info:
   Init: systemd runlevel: 5 Compilers: gcc: 11.4.0 clang: 16.0.4
   Packages: 4360 Shell: Zsh v: 5.8.1 inxi: 3.3.13
 ```
+
+
+### Gatling simulations summary
+<!-- start gatling simulations table -->
+|#|Simulation|Number of Requests|Min Response Time|Max Response Time|Mean Response Time|p50|p75|p95|p99|
+|-:|:-|-:|-:|-:|-:|-:|-:|-:|-:|
+|1|Nim2beast|60000|0|36|0|0|0|1|1|
+|2|JavaIOUring|60000|0|40|0|0|1|1|1|
+|3|VPicov|60000|0|43|0|0|0|1|1|
+|4|RustXitca|60000|0|44|0|0|1|1|1|
+|5|Ruby|60000|0|45|0|0|1|1|1|
+|6|BunHono|60000|0|46|0|0|1|1|1|
+|7|PHPEmbededServer|60000|0|46|0|0|1|1|1|
+|8|Go|60000|0|48|0|0|0|1|1|
+|9|RustMayMinihttp|60000|0|48|0|0|1|1|4|
+|10|ZigZap|60000|0|52|0|0|0|1|1|
+|11|BunHttpServer|60000|0|56|0|0|1|1|1|
+|12|NodeJSHttpServer|60000|0|57|0|0|0|1|1|
+|13|RustSalvo|60000|0|57|0|0|1|1|2|
+|14|CScratch|60000|0|59|0|0|1|1|1|
+|15|RustHyper|60000|0|61|0|0|1|1|1|
+|16|HaskellScotty|60000|0|61|0|0|1|1|5|
+|17|RustAxum|60000|0|63|0|0|0|1|2|
+|18|RustActix|60000|0|65|0|0|1|1|1|
+|19|BunElysia|60000|0|67|0|0|1|1|2|
+|20|HaskellWarp|60000|0|68|0|0|0|1|4|
+|21|RustGotham|60000|0|77|0|0|0|1|1|
+|22|GleamMist|60000|0|78|0|0|1|1|1|
+|23|CppDrogon|60000|0|79|0|0|1|1|2|
+|24|Netty|60000|0|84|0|0|1|1|2|
+|25|NodeJSExpress|60000|0|84|1|0|1|1|2|
+|26|NodeJSHttpServerWorker|60000|0|88|1|0|1|1|3|
+|27|Netty|60000|0|91|1|0|1|1|9|
+|28|BunHttpServerWorker|60000|0|96|0|0|1|1|2|
+|29|PHPNginx|60000|0|99|0|0|1|1|1|
+|30|DenoFresh|60000|0|106|1|0|1|1|2|
+|31|PythonTwisted|60000|0|106|2|1|1|3|35|
+|32|JavaSmartHttp|60000|0|114|0|0|1|1|1|
+|33|QuarkusNative|60000|0|114|1|0|1|1|18|
+|34|QuarkusReact|60000|0|220|1|1|1|1|5|
+|35|NettyMono2|60000|0|236|1|1|1|1|5|
+|36|Quarkus|60000|0|266|1|1|1|1|4|
+|37|Undertow|60000|0|325|1|0|1|1|15|
+|38|JavaBlade|60000|0|356|1|0|0|1|3|
+|39|Tomcat|60000|0|360|1|0|1|1|6|
+|40|Micronaut|60000|0|468|4|0|1|2|129|
+|41|ClojureRingJetty|60000|0|481|16|1|2|120|323|
+|42|NettyMono|60000|0|545|7|0|1|1|335|
+|43|Ktor|60000|0|696|6|0|1|3|245|
+|44|Scala3ZioHttp|60000|0|888|5|0|1|1|222|
+|45|Lua|60000|0|1033|0|0|1|1|1|
+|46|CrystalSpiderGazelle|60000|0|1041|5|1|1|32|83|
+|47|DartShelf|60000|0|1068|3|1|1|6|55|
+|48|RacketSpin|60000|0|1103|51|3|35|308|627|
+|49|OcamlHttpAsync|60000|0|1106|1|0|1|2|6|
+|50|PythonTornado|60000|0|1306|30|1|19|117|347|
+|51|Scala3AkkaHttp|60000|0|1870|7|0|1|1|6|
+|52|ElixirPhoenixCowboy|60000|248|1985|735|695|851|1139|1563|
+|53|Scala3Play2|60000|0|2764|91|0|1|11|2314|
+|54|PythonFlask|60000|0|3135|14|1|1|104|143|
+|55|JavaHttpServer|60000|0|3194|18|0|1|3|568|
+|56|PythonFastApi|60000|53|10340|4486|3948|7229|9709|10032|
+|57|JuliaGenie|57929|9|10971|721|12|12|7199|8634|
+|58|PythonFastApiHypercorn|56878|26|45622|25555|29579|37271|40736|41760|
+|59|Http4k|10000|0|181|3|0|1|1|126|
+<!-- end gatling simulations table -->
