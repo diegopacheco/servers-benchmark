@@ -429,7 +429,7 @@ Info:
 
 ### Gatling simulations summary
 <!-- start gatling simulations table -->
-|#|Simulation|Number of Requests|Min Response Time|Max Response Time|Mean Response Time|p50|p75|p95|p99|
+|#|Simulation|Requests|Min|Max|Mean|p50|p75|p95|p99|
 |-:|:-|-:|-:|-:|-:|-:|-:|-:|-:|
 |1|Nim2beast|60000|0|36|0|0|0|1|1|
 |2|JavaIOUring|60000|0|40|0|0|1|1|1|
