@@ -39,7 +39,7 @@ def simulations_to_markdown():
     for r in result:
         number += 1
         markdown += "|{}|{}|{}|{}|{}|{}|{}|{}|{}|{}|\n".format(
-            number,
+            display(number),
             r["simulation"], 
             r["numberOfRequests"], 
             r["minResponseTime"], 
@@ -53,6 +53,16 @@ def simulations_to_markdown():
     
     return markdown
 
+def display(number):
+    match number:
+        case 1:
+            return "🏆"
+        case 2:
+            return "🥈"
+        case 3:
+            return "🥉"
+        case _:
+            return number
 
 def print_markdown():
   print(simulations_to_markdown())  

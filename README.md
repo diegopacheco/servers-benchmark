@@ -425,15 +425,20 @@ Info:
   Init: systemd runlevel: 5 Compilers: gcc: 11.4.0 clang: 16.0.4
   Packages: 4360 Shell: Zsh v: 5.8.1 inxi: 3.3.13
 ```
-
-
 ### Gatling simulations summary
+
+
+🏆 #1 - Winner       <br/>
+🥈 #2 - Second place <br/>
+🥉 #3 - Thrid Place  <br/>
+🧮Criteria: Number of Requests, Max and p99 (usually max is what define it) <br/>
+
 <!-- start gatling simulations table -->
 |#|Simulation|Reqs|Min|Max|Mean|p50|p75|p95|p99|
 |-:|:-|-:|-:|-:|-:|-:|-:|-:|-:|
-|1|Nim2beast|60000|0|36|0|0|0|1|1|
-|2|JavaIOUring|60000|0|40|0|0|1|1|1|
-|3|VPicov|60000|0|43|0|0|0|1|1|
+|🏆|Nim2beast|60000|0|36|0|0|0|1|1|
+|🥈|JavaIOUring|60000|0|40|0|0|1|1|1|
+|🥉|VPicov|60000|0|43|0|0|0|1|1|
 |4|RustXitca|60000|0|44|0|0|1|1|1|
 |5|Ruby|60000|0|45|0|0|1|1|1|
 |6|PHPEmbededServer|60000|0|46|0|0|1|1|1|
