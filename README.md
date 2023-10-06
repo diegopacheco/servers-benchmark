@@ -125,7 +125,7 @@
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rustsalvosimulation-20231001211803463/index.html">Rust 1.72.1 - Salvo</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/rustxitcasimulation-20231001213138805/index.html">Rust 1.74.0-nightly (ca62d2c44 2023-09-30) - Xitca</a>
 * <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/haskellwarpsimulation-20231003073823194/index.html">Haskell - Warp</a>
-* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/http4ksimulation-20231003075332167/index.html">Kotlin - Http4k</a>
+* <a href="https://htmlpreview.github.io/?https://github.com/diegopacheco/servers-benchmark/blob/main/gatling-benchmarks/results/1k/http4ksimulation-20231006014005118/index.html">Kotlin - Http4k</a>
 
 ### Throwing a little bit of Salt 🧂
 
