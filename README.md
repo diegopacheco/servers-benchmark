@@ -490,4 +490,4 @@ Info:
 |57|PythonFastApi|60000|53|10340|4486|3948|7229|9709|10032|
 |58|JuliaGenie|57929|9|10971|721|12|12|7199|8634|
 |59|PythonFastApiHypercorn|56878|26|45622|25555|29579|37271|40736|41760|
-<!-- end gatling simulations table -->->
+<!-- end gatling simulations table -->
