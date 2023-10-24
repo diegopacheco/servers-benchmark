@@ -16,7 +16,7 @@ public class RustSalvoSimulation extends Simulation {
             .acceptEncodingHeader("gzip, deflate")
             .userAgentHeader("Mozilla/5.0 (Windows NT 5.1; rv:31.0) Gecko/20100101 Firefox/31.0");
 
-    ScenarioBuilder scn = scenario("RustXitcaSimulation")
+    ScenarioBuilder scn = scenario("RustSalvoSimulation")
             .exec(http("request")
                     .get("/"))
             .pause(5);
